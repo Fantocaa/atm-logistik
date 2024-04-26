@@ -14,7 +14,7 @@ export default function ServicesArea() {
           <div className=" md:max-w-screen-md 2xl:max-w-screen-lg mx-auto pb-32 flex flex-col items-center"></div>
           <div className="relative">
             <Image
-              src="/images/provinces.svg"
+              src="/images/Provinces.svg"
               alt="map"
               width={2560}
               height={2560}
