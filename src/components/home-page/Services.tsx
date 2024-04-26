@@ -22,12 +22,14 @@ export default function Services() {
                 width={64}
                 height={64}
                 data-aos="zoom-in-right"
+                data-aos-offset="-400"
                 // data-aos-delay="200"
               />
               <h1
                 className="text-3xl"
                 data-aos="fade-right"
                 data-aos-delay="100"
+                data-aos-offset="-400"
               >
                 Door to Door
               </h1>
@@ -42,11 +44,13 @@ export default function Services() {
                 height={64}
                 data-aos="zoom-in-right"
                 data-aos-delay="100"
+                data-aos-offset="-400"
               />
               <h1
                 className="text-3xl"
                 data-aos="fade-right"
                 data-aos-delay="200"
+                data-aos-offset="-400"
               >
                 Port to Door
               </h1>
@@ -61,11 +65,13 @@ export default function Services() {
                 height={64}
                 data-aos="zoom-in-right"
                 data-aos-delay="200"
+                data-aos-offset="-400"
               />
               <h1
                 className="text-3xl"
                 data-aos="fade-right"
                 data-aos-delay="300"
+                data-aos-offset="-400"
               >
                 Door to Port
               </h1>
@@ -80,11 +86,13 @@ export default function Services() {
                 height={64}
                 data-aos="zoom-in-right"
                 data-aos-delay="300"
+                data-aos-offset="-400"
               />
               <h1
                 className="text-3xl"
                 data-aos="fade-right"
                 data-aos-delay="400"
+                data-aos-offset="-400"
               >
                 Port to Port
               </h1>
@@ -96,12 +104,14 @@ export default function Services() {
               className="bg-slate-50 p-2 px-4 inline-block rounded-full text-blueatm-900 font-medium w-fit"
               data-aos="zoom-in-right"
               data-aos-delay="200"
+              data-aos-offset="-400"
             >
               🛟 Our Services
             </p>
             <h2
               className="text-3xl font-semibold sm:text-[56px] max-w-[31rem] leading-none pt-6 text-dark"
               data-aos="zoom-out-up"
+              data-aos-offset="-400"
             >
               Menyajikan{" "}
               <span className="text-blueatm-900">Layanan Logistik Terbaik</span>{" "}
@@ -122,6 +132,7 @@ export default function Services() {
               className=" py-3 mt-8 bg-blueatm-900 hover:bg-blueatm-600 rounded-full flex gap-2 transition-all w-fit"
               data-aos="zoom-in-right"
               data-aos-delay="400"
+              data-aos-offset="-400"
             >
               View All Services
               <ArrowRight />
@@ -140,11 +151,13 @@ export default function Services() {
                 height={64}
                 data-aos="fade-down"
                 data-aos-duration="1000"
+                data-aos-offset="-400"
               />
               <p
                 className="text-4xl pt-4 font-semibold text-blueatm-900"
                 data-aos="fade-right"
                 data-aos-duration="1000"
+                data-aos-offset="-400"
               >
                 <CountUp
                   end={40}
@@ -168,6 +181,7 @@ export default function Services() {
                 data-aos="fade-down"
                 data-aos-duration="1000"
                 data-aos-delay="100"
+                data-aos-offset="-400"
               />
               <p className="text-4xl pt-4 font-semibold text-blueatm-900">
                 100+
@@ -184,6 +198,7 @@ export default function Services() {
                 data-aos="fade-down"
                 data-aos-duration="1000"
                 data-aos-delay="200"
+                data-aos-offset="-400"
               />
               <p className="text-4xl pt-4 font-semibold text-blueatm-900">
                 500+
@@ -200,6 +215,7 @@ export default function Services() {
                 data-aos="fade-down"
                 data-aos-duration="1000"
                 data-aos-delay="300"
+                data-aos-offset="-400"
               />
               <p className="text-4xl pt-4 font-semibold text-blueatm-900">
                 2000+
