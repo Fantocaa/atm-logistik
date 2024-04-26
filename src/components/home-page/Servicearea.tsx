@@ -18,14 +18,7 @@ export default function ServicesArea() {
               alt="map"
               width={2560}
               height={2560}
-              className="mx-auto w-full h-full hidden md:block"
-            />
-            <Image
-              src="/images/map.svg"
-              alt="map"
-              width={2560}
-              height={2560}
-              className="mx-auto w-full h-full md:hidden"
+              className="mx-auto w-full h-full"
             />
 
             <div className="md:block">

@@ -1,8 +1,13 @@
+"use client";
+
 import React from "react";
 import Image from "next/image";
 import { Separator } from "@/components/ui/separator";
 import { ArrowRight } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import Aos from "aos";
+import "aos/dist/aos.css";
+import CountUp, { useCountUp } from "react-countup";
 
 export default function Services() {
   return (
@@ -11,26 +16,78 @@ export default function Services() {
         <div className="flex gap-8">
           <div className="w-1/2 flex flex-col gap-5">
             <div className="flex items-center gap-16">
-              <Image src="/icon/1.svg" alt="icon" width={64} height={64} />
-              <h1 className="text-3xl">Door to Door</h1>
+              <Image
+                src="/icon/1.svg"
+                alt="icon"
+                width={64}
+                height={64}
+                data-aos="zoom-in-right"
+                // data-aos-delay="200"
+              />
+              <h1
+                className="text-3xl"
+                data-aos="fade-right"
+                data-aos-delay="100"
+              >
+                Door to Door
+              </h1>
             </div>
             <Separator />
 
             <div className="flex items-center gap-16">
-              <Image src="/icon/2.svg" alt="icon" width={64} height={64} />
-              <h1 className="text-3xl">Port to Door</h1>
+              <Image
+                src="/icon/2.svg"
+                alt="icon"
+                width={64}
+                height={64}
+                data-aos="zoom-in-right"
+                data-aos-delay="100"
+              />
+              <h1
+                className="text-3xl"
+                data-aos="fade-right"
+                data-aos-delay="200"
+              >
+                Port to Door
+              </h1>
             </div>
             <Separator />
 
             <div className="flex items-center gap-16">
-              <Image src="/icon/3.svg" alt="icon" width={64} height={64} />
-              <h1 className="text-3xl">Door to Port</h1>
+              <Image
+                src="/icon/3.svg"
+                alt="icon"
+                width={64}
+                height={64}
+                data-aos="zoom-in-right"
+                data-aos-delay="200"
+              />
+              <h1
+                className="text-3xl"
+                data-aos="fade-right"
+                data-aos-delay="300"
+              >
+                Door to Port
+              </h1>
             </div>
             <Separator />
 
             <div className="flex items-center gap-16">
-              <Image src="/icon/4.svg" alt="icon" width={64} height={64} />
-              <h1 className="text-3xl">Port to Port</h1>
+              <Image
+                src="/icon/4.svg"
+                alt="icon"
+                width={64}
+                height={64}
+                data-aos="zoom-in-right"
+                data-aos-delay="300"
+              />
+              <h1
+                className="text-3xl"
+                data-aos="fade-right"
+                data-aos-delay="400"
+              >
+                Port to Port
+              </h1>
             </div>
             <Separator />
           </div>
@@ -76,15 +133,42 @@ export default function Services() {
           <div className="flex h-32 justify-center gap-16 items-center space-x-4">
             <Separator orientation="vertical" />
             <div className="flex flex-col items-center">
-              <Image src="/icon/1-1.svg" alt="icon" width={64} height={64} />
-              <p className="text-4xl pt-4 font-semibold text-blueatm-900">
-                40+
+              <Image
+                src="/icon/1-1.svg"
+                alt="icon"
+                width={64}
+                height={64}
+                data-aos="fade-down"
+                data-aos-duration="1000"
+              />
+              <p
+                className="text-4xl pt-4 font-semibold text-blueatm-900"
+                data-aos="fade-right"
+                data-aos-duration="1000"
+              >
+                <CountUp
+                  end={40}
+                  duration={2.75}
+                  enableScrollSpy
+                  scrollSpyOnce
+                ></CountUp>
+                +
               </p>
-              <h1>Years of Experience</h1>
+              <h1 data-aos="zoom-in-up" data-aos-duration="800">
+                Years of Experience
+              </h1>
             </div>
             <Separator orientation="vertical" />
             <div className="flex flex-col items-center">
-              <Image src="/icon/1-2.svg" alt="icon" width={64} height={64} />
+              <Image
+                src="/icon/1-2.svg"
+                alt="icon"
+                width={64}
+                height={64}
+                data-aos="fade-down"
+                data-aos-duration="1000"
+                data-aos-delay="100"
+              />
               <p className="text-4xl pt-4 font-semibold text-blueatm-900">
                 100+
               </p>
@@ -92,7 +176,15 @@ export default function Services() {
             </div>
             <Separator orientation="vertical" />
             <div className="flex flex-col items-center">
-              <Image src="/icon/1-3.svg" alt="icon" width={64} height={64} />
+              <Image
+                src="/icon/1-3.svg"
+                alt="icon"
+                width={64}
+                height={64}
+                data-aos="fade-down"
+                data-aos-duration="1000"
+                data-aos-delay="200"
+              />
               <p className="text-4xl pt-4 font-semibold text-blueatm-900">
                 500+
               </p>
@@ -105,6 +197,9 @@ export default function Services() {
                 alt="icon"
                 width={64}
                 height={64}
+                data-aos="fade-down"
+                data-aos-duration="1000"
+                data-aos-delay="300"
               />
               <p className="text-4xl pt-4 font-semibold text-blueatm-900">
                 2000+

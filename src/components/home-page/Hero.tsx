@@ -120,7 +120,7 @@ export default function Hero() {
                     alt="container-hero"
                     width={1080}
                     height={1080}
-                    className="w-full h-64 object-cover p-4"
+                    className="w-full h-64"
                     data-aos="zoom-in-up"
                     data-aos-delay="700"
                   />
