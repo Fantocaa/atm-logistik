@@ -5,9 +5,8 @@ import Image from "next/image";
 import { Separator } from "@/components/ui/separator";
 import { ArrowRight } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import Aos from "aos";
 import "aos/dist/aos.css";
-import CountUp, { useCountUp } from "react-countup";
+import CountUp from "react-countup";
 
 export default function Services() {
   return (
@@ -22,14 +21,14 @@ export default function Services() {
                 width={64}
                 height={64}
                 data-aos="zoom-in-right"
-                data-aos-offset="-400"
+                data-aos-offset="-300"
                 // data-aos-delay="200"
               />
               <h1
                 className="text-3xl"
                 data-aos="fade-right"
                 data-aos-delay="100"
-                data-aos-offset="-400"
+                data-aos-offset="-300"
               >
                 Door to Door
               </h1>
@@ -44,13 +43,13 @@ export default function Services() {
                 height={64}
                 data-aos="zoom-in-right"
                 data-aos-delay="100"
-                data-aos-offset="-400"
+                data-aos-offset="-300"
               />
               <h1
                 className="text-3xl"
                 data-aos="fade-right"
                 data-aos-delay="200"
-                data-aos-offset="-400"
+                data-aos-offset="-300"
               >
                 Port to Door
               </h1>
@@ -65,13 +64,13 @@ export default function Services() {
                 height={64}
                 data-aos="zoom-in-right"
                 data-aos-delay="200"
-                data-aos-offset="-400"
+                data-aos-offset="-300"
               />
               <h1
                 className="text-3xl"
                 data-aos="fade-right"
                 data-aos-delay="300"
-                data-aos-offset="-400"
+                data-aos-offset="-300"
               >
                 Door to Port
               </h1>
@@ -86,13 +85,13 @@ export default function Services() {
                 height={64}
                 data-aos="zoom-in-right"
                 data-aos-delay="300"
-                data-aos-offset="-400"
+                data-aos-offset="-300"
               />
               <h1
                 className="text-3xl"
                 data-aos="fade-right"
                 data-aos-delay="400"
-                data-aos-offset="-400"
+                data-aos-offset="-300"
               >
                 Port to Port
               </h1>
@@ -104,14 +103,14 @@ export default function Services() {
               className="bg-slate-50 p-2 px-4 inline-block rounded-full text-blueatm-900 font-medium w-fit"
               data-aos="zoom-in-right"
               data-aos-delay="200"
-              data-aos-offset="-400"
+              data-aos-offset="-300"
             >
               🛟 Our Services
             </p>
             <h2
               className="text-3xl font-semibold sm:text-[56px] max-w-[31rem] leading-none pt-6 text-dark"
               data-aos="zoom-out-up"
-              data-aos-offset="-400"
+              data-aos-offset="-300"
             >
               Menyajikan{" "}
               <span className="text-blueatm-900">Layanan Logistik Terbaik</span>{" "}
@@ -132,7 +131,7 @@ export default function Services() {
               className=" py-3 mt-8 bg-blueatm-900 hover:bg-blueatm-600 rounded-full flex gap-2 transition-all w-fit"
               data-aos="zoom-in-right"
               data-aos-delay="400"
-              data-aos-offset="-400"
+              data-aos-offset="-300"
             >
               View All Services
               <ArrowRight />
@@ -151,13 +150,13 @@ export default function Services() {
                 height={64}
                 data-aos="fade-down"
                 data-aos-duration="1000"
-                data-aos-offset="-400"
+                data-aos-offset="-300"
               />
               <p
                 className="text-4xl pt-4 font-semibold text-blueatm-900"
                 data-aos="fade-right"
                 data-aos-duration="1000"
-                data-aos-offset="-400"
+                data-aos-offset="-300"
               >
                 <CountUp
                   end={40}
@@ -167,7 +166,11 @@ export default function Services() {
                 ></CountUp>
                 +
               </p>
-              <h1 data-aos="zoom-in-up" data-aos-duration="800">
+              <h1
+                data-aos="zoom-in-right"
+                data-aos-duration="800"
+                data-aos-delay="200"
+              >
                 Years of Experience
               </h1>
             </div>
@@ -181,12 +184,29 @@ export default function Services() {
                 data-aos="fade-down"
                 data-aos-duration="1000"
                 data-aos-delay="100"
-                data-aos-offset="-400"
+                data-aos-offset="-300"
               />
-              <p className="text-4xl pt-4 font-semibold text-blueatm-900">
-                100+
+              <p
+                className="text-4xl pt-4 font-semibold text-blueatm-900"
+                data-aos="fade-right"
+                data-aos-duration="1000"
+                data-aos-offset="-300"
+              >
+                <CountUp
+                  end={100}
+                  duration={2.75}
+                  enableScrollSpy
+                  scrollSpyOnce
+                ></CountUp>
+                +
               </p>
-              <h1>Owned Vehicles</h1>
+              <h1
+                data-aos="zoom-in-right"
+                data-aos-duration="800"
+                data-aos-delay="200"
+              >
+                Owned Vehicles
+              </h1>
             </div>
             <Separator orientation="vertical" />
             <div className="flex flex-col items-center">
@@ -198,12 +218,29 @@ export default function Services() {
                 data-aos="fade-down"
                 data-aos-duration="1000"
                 data-aos-delay="200"
-                data-aos-offset="-400"
+                data-aos-offset="-300"
               />
-              <p className="text-4xl pt-4 font-semibold text-blueatm-900">
-                500+
+              <p
+                className="text-4xl pt-4 font-semibold text-blueatm-900"
+                data-aos="fade-right"
+                data-aos-duration="1000"
+                data-aos-offset="-300"
+              >
+                <CountUp
+                  end={500}
+                  duration={2.75}
+                  enableScrollSpy
+                  scrollSpyOnce
+                ></CountUp>
+                +
               </p>
-              <h1>Employee&apos;s Staff</h1>
+              <h1
+                data-aos="zoom-in-right"
+                data-aos-duration="800"
+                data-aos-delay="200"
+              >
+                Employee&apos;s Staff
+              </h1>
             </div>
             <Separator orientation="vertical" />
             <div className="flex flex-col items-center">
@@ -215,10 +252,16 @@ export default function Services() {
                 data-aos="fade-down"
                 data-aos-duration="1000"
                 data-aos-delay="300"
-                data-aos-offset="-400"
+                data-aos-offset="-300"
               />
               <p className="text-4xl pt-4 font-semibold text-blueatm-900">
-                2000+
+                <CountUp
+                  end={2000}
+                  duration={2.75}
+                  enableScrollSpy
+                  scrollSpyOnce
+                ></CountUp>
+                +
               </p>
               <h1>Order Shipped Safety</h1>
             </div>
