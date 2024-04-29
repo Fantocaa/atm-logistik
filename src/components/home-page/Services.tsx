@@ -259,7 +259,12 @@ export default function Services() {
                 data-aos-delay="300"
                 data-aos-offset="-300"
               />
-              <p className="text-4xl pt-4 font-semibold text-blueatm-900">
+              <p
+                className="text-4xl pt-4 font-semibold text-blueatm-900"
+                data-aos="fade-right"
+                data-aos-duration="1000"
+                data-aos-offset="-300"
+              >
                 <CountUp
                   end={2000}
                   duration={2.75}

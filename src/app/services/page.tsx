@@ -1,5 +1,12 @@
+import ServicesArea from "@/components/home-page/Servicearea";
+import Header from "@/components/services-page/header";
 import React from "react";
 
 export default function Services() {
-  return <div>Services</div>;
+  return (
+    <>
+      <Header />
+      <ServicesArea />
+    </>
+  );
 }

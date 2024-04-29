@@ -126,7 +126,7 @@ export function Navbar() {
     <>
       <nav>
         <motion.div
-          className="mx-auto bg-white bg-opacity-80 fixed top-0 left-0 right-0 z-50 backdrop-blur"
+          className="mx-auto bg-white bg-opacity-90 fixed top-0 left-0 right-0 z-50 backdrop-blur"
           initial="visible"
           animate={controls}
           variants={navbarVariants}
