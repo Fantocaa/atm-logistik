@@ -33,7 +33,7 @@ export default function Services() {
                 Door to Door
               </h1>
             </div>
-            <Separator />
+            <Separator data-aos-delay="150" data-aos-offset="-300" />
 
             <div className="flex items-center gap-16">
               <Image
@@ -54,7 +54,7 @@ export default function Services() {
                 Port to Door
               </h1>
             </div>
-            <Separator />
+            <Separator data-aos-delay="250" data-aos-offset="-300" />
 
             <div className="flex items-center gap-16">
               <Image
@@ -75,7 +75,7 @@ export default function Services() {
                 Door to Port
               </h1>
             </div>
-            <Separator />
+            <Separator data-aos-delay="350" data-aos-offset="-300" />
 
             <div className="flex items-center gap-16">
               <Image
@@ -96,7 +96,7 @@ export default function Services() {
                 Port to Port
               </h1>
             </div>
-            <Separator />
+            <Separator data-aos-delay="450" data-aos-offset="-300" />
           </div>
           <div>
             <p
@@ -120,6 +120,8 @@ export default function Services() {
             <p
               className="mt-4 text-gray-600 text-xl max-w-[32rem]"
               data-aos="zoom-out-up"
+              data-aos-delay="300"
+              data-aos-offset="-300"
             >
               Mengingat setiap customer memiliki kebutuhan yang berbeda-beda,
               kami menyediakan berbagai service pelayanan yang fleksibel dan
@@ -170,6 +172,7 @@ export default function Services() {
                 data-aos="zoom-in-right"
                 data-aos-duration="800"
                 data-aos-delay="200"
+                data-aos-offset="-300"
               >
                 Years of Experience
               </h1>
@@ -204,6 +207,7 @@ export default function Services() {
                 data-aos="zoom-in-right"
                 data-aos-duration="800"
                 data-aos-delay="200"
+                data-aos-offset="-300"
               >
                 Owned Vehicles
               </h1>
@@ -238,6 +242,7 @@ export default function Services() {
                 data-aos="zoom-in-right"
                 data-aos-duration="800"
                 data-aos-delay="200"
+                data-aos-offset="-300"
               >
                 Employee&apos;s Staff
               </h1>
@@ -263,7 +268,14 @@ export default function Services() {
                 ></CountUp>
                 +
               </p>
-              <h1>Order Shipped Safety</h1>
+              <h1
+                data-aos="zoom-in-right"
+                data-aos-duration="800"
+                data-aos-delay="200"
+                data-aos-offset="-300"
+              >
+                Order Shipped Safety
+              </h1>
             </div>
             <Separator orientation="vertical" />
           </div>

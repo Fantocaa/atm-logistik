@@ -22,14 +22,14 @@ export default function Hero() {
                 className="bg-slate-50 p-2 px-4 inline-block rounded-full text-blueatm-900 font-medium w-fit mt-6"
                 data-aos="zoom-in-right"
                 data-aos-delay="200"
-                data-aos-offset="-400"
+                data-aos-offset="-300"
               >
                 PT. Anugerah Trans Maritim
               </p>
               <h2
                 className="text-3xl font-bold sm:text-[56px] leading-none pt-6 text-dark"
                 data-aos="zoom-out-up"
-                data-aos-offset="-400"
+                data-aos-offset="-300"
               >
                 <span className="text-blueatm-900">Make</span> Your
                 🛳️🌊Bussiness <span className="text-blueatm-900">Growth</span>
@@ -38,7 +38,7 @@ export default function Hero() {
               <p
                 className="mt-4 text-gray-600 text-xl max-w-[30rem]"
                 data-aos="zoom-out-up"
-                data-aos-offset="-400"
+                data-aos-offset="-300"
               >
                 Memiliki jaringan yang kuat dan luas di seluruh wilayah
                 Indonesia membuat kami bisa menjawab semua kebutuhan logistik
@@ -50,7 +50,7 @@ export default function Hero() {
                 className=" py-3 mt-6 bg-blueatm-900 hover:bg-blueatm-600 rounded-full flex gap-2 transition-all w-fit"
                 data-aos="zoom-in-right"
                 data-aos-delay="400"
-                data-aos-offset="-400"
+                data-aos-offset="-300"
               >
                 Get Started
                 <ArrowRight />
@@ -61,7 +61,7 @@ export default function Hero() {
                 className="bg-slate-50 rounded-xl"
                 data-aos="zoom-in-down"
                 data-aos-delay="400"
-                data-aos-offset="-400"
+                data-aos-offset="-300"
               >
                 <Image
                   src="/images/Frame 8.png"
@@ -71,7 +71,7 @@ export default function Hero() {
                   className="h-full w-full object-cover"
                   data-aos="zoom-in-up"
                   data-aos-delay="600"
-                  data-aos-offset="-400"
+                  data-aos-offset="-300"
                 />
               </div>
               <div className="grid grid-cols-2 gap-4">
@@ -80,13 +80,13 @@ export default function Hero() {
                     className="bg-slate-50 rounded-xl p-6 flex items-center"
                     data-aos="zoom-in-down"
                     data-aos-delay="500"
-                    data-aos-offset="-400"
+                    data-aos-offset="-300"
                   >
                     <h1
                       className="text-[28px] leading-9 font-semibold text-dark"
                       data-aos="zoom-in-right"
                       data-aos-delay="600"
-                      data-aos-offset="-400"
+                      data-aos-offset="-300"
                     >
                       Ensure the{" "}
                       <span className="text-blueatm-900">Safety</span> of Your{" "}
@@ -97,7 +97,7 @@ export default function Hero() {
                     className="bg-slate-50 rounded-xl p-6 flex gap-4 items-center w-full justify-center"
                     data-aos="zoom-in-down"
                     data-aos-delay="450"
-                    data-aos-offset="-400"
+                    data-aos-offset="-300"
                   >
                     <Image
                       src="/icon/container.svg"
@@ -106,13 +106,13 @@ export default function Hero() {
                       alt="container"
                       data-aos="zoom-in-left"
                       data-aos-delay="600"
-                      data-aos-offset="-400"
+                      data-aos-offset="-300"
                     />
                     <div
                       className="flex flex-col justify-end items-center h-full"
                       data-aos="zoom-in-left"
                       data-aos-delay="600"
-                      data-aos-offset="-400"
+                      data-aos-offset="-300"
                     >
                       <h1 className="text-center text-3xl text-blueatm-900 font-semibold">
                         2000+
@@ -125,7 +125,7 @@ export default function Hero() {
                   className="bg-slate-50 rounded-xl"
                   data-aos="zoom-in-down"
                   data-aos-delay="450"
-                  data-aos-offset="-400"
+                  data-aos-offset="-300"
                 >
                   <Image
                     src="/images/Frame 10.png"
@@ -135,7 +135,7 @@ export default function Hero() {
                     className="w-full h-64"
                     data-aos="zoom-in-up"
                     data-aos-delay="700"
-                    data-aos-offset="-400"
+                    data-aos-offset="-300"
                   />
                 </div>
               </div>
