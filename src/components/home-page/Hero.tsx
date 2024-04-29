@@ -97,7 +97,7 @@ export default function Hero() {
                     className="bg-slate-50 rounded-xl p-6 flex gap-4 items-center w-full justify-center"
                     data-aos="zoom-in-down"
                     data-aos-delay="450"
-                    data-aos-offset="-300"
+                    data-aos-offset="-400"
                   >
                     <Image
                       src="/icon/container.svg"
@@ -106,13 +106,13 @@ export default function Hero() {
                       alt="container"
                       data-aos="zoom-in-left"
                       data-aos-delay="600"
-                      data-aos-offset="-300"
+                      data-aos-offset="-500"
                     />
                     <div
                       className="flex flex-col justify-end items-center h-full"
                       data-aos="zoom-in-left"
                       data-aos-delay="600"
-                      data-aos-offset="-300"
+                      data-aos-offset="-400"
                     >
                       <h1 className="text-center text-3xl text-blueatm-900 font-semibold">
                         2000+
