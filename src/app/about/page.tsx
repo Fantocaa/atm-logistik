@@ -1,4 +1,5 @@
 import Header from "@/components/about-page/Header";
+import Member from "@/components/about-page/Member";
 import Sakti from "@/components/about-page/Sakti";
 import Cta from "@/components/home-page/Cta";
 import Faq from "@/components/home-page/Faq";
@@ -10,6 +11,7 @@ export default function About() {
     <>
       <Header />
       <Sakti />
+      <Member />
       <ImageSection />
       <Faq />
       <Cta />

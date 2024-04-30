@@ -27,17 +27,25 @@ const components: {
   {
     title: "Whatsapp",
     icon: <Phone />,
-    href: "/docs/primitives/alert-dialog",
+    href: "https://api.whatsapp.com/send?phone=6282231888611",
     description:
       "A modal dialog that interrupts the user with important content and expects a response.",
   },
   {
     title: "Email",
     icon: <Mail />,
-    href: "/docs/primitives/hover-card",
+    href: "mailto:fantocaa17@gmail.com",
     description:
       "For sighted users to preview content available behind a link.",
   },
+];
+
+export const NavLinks = [
+  { id: 1, name: "Home", path: "/" },
+  { id: 2, name: "About", path: "/about" },
+  { id: 3, name: "Services", path: "/services" },
+  { id: 4, name: "Tracking", path: "/tracking" },
+  { id: 5, name: "Careers", path: "https://karier.tako.co.id/" },
 ];
 
 export function Navbar() {
@@ -85,13 +93,6 @@ export function Navbar() {
       controls.start("hidden");
     }
   }, [isVisible, controls]);
-
-  const NavLinks = [
-    { id: 1, name: "Home", path: "/" },
-    { id: 2, name: "About", path: "/about" },
-    { id: 3, name: "Services", path: "/services" },
-    { id: 4, name: "Tracking", path: "/tracking" },
-  ];
 
   const pathname = usePathname();
   const isActive = (path: string) => path === pathname;
