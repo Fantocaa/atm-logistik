@@ -17,9 +17,9 @@ export default function Faq() {
         >
           💁‍♂️ FAQ&apos;s
         </p>
-        <div className="grid grid-cols-2 pt-8">
+        <div className="grid md:grid-cols-2 pt-8">
           <div>
-            <h1 className="text-5xl font-semibold">
+            <h1 className="text-5xl font-semibold pb-8 md:pb-0">
               Apa yang ingin Anda tanyakan pada kami?
             </h1>
           </div>

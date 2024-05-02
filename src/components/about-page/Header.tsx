@@ -14,9 +14,9 @@ export default function Header() {
   }, []);
   return (
     <>
-      <section className="mt-8 2xl:pt-16 font-medium">
+      <section className="mt-24 md:mt-8 2xl:pt-16 font-medium">
         <div className="mx-auto max-w-screen-xl px-4 py-8 sm:px-6 sm:py-12 lg:px-8 lg:py-16">
-          <div className="grid grid-cols-1 gap-8 lg:grid-cols-2 lg:gap-4">
+          <div className="grid grid-cols-1 gap-4 lg:grid-cols-2 lg:gap-4">
             <div className="">
               <p
                 className="bg-slate-50 p-2 px-4 inline-block rounded-full text-blueatm-900 font-medium w-fit"
@@ -52,7 +52,7 @@ export default function Header() {
                 layanan kami adalah yang terlengkap dan terbaik di Indonesia.
               </p>
 
-              <div className="grid grid-cols-2 gap-4 mt-[13.8rem]">
+              <div className="md:grid grid-cols-2 gap-4 mt-16 md:mt-[13.8rem] hidden">
                 <div
                   className="bg-slate-50 rounded-xl p-6 flex gap-4 items-center w-full justify-center"
                   data-aos="zoom-in-down"
@@ -176,15 +176,15 @@ export default function Header() {
                   width={1440}
                   height={1440}
                   alt="ship-hero"
-                  className="h-fit w-fit object-cover p-8"
+                  className="h-fit w-fit object-cover p-8 hidden md:block"
                   data-aos="zoom-in-up"
                   data-aos-delay="600"
                   data-aos-offset="-300"
                 />
               </div>
-              <div className="grid grid-row-2 gap-4">
+              <div className="grid grid-row-2 gap-4 pt-16 md:pt-0">
                 <div
-                  className="bg-slate-50 rounded-xl flex items-center mt-4 p-6"
+                  className="bg-slate-50 rounded-xl flex items-center md:mt-4 p-6"
                   data-aos="zoom-in-down"
                   data-aos-delay="500"
                   data-aos-offset="-300"
@@ -246,6 +246,116 @@ export default function Header() {
                       </li>
                     </ul>
                   </div>
+                </div>
+              </div>
+            </div>
+            <div className="grid grid-cols-2 gap-4 md:mt-[13.8rem] md:hidden">
+              <div
+                className="bg-slate-50 rounded-xl p-6 flex gap-4 items-center w-full justify-center"
+                data-aos="zoom-in-down"
+                data-aos-delay="450"
+                data-aos-offset="-400"
+              >
+                <Image
+                  src="/icon/1-1.svg"
+                  width={64}
+                  height={64}
+                  alt="container"
+                  data-aos="zoom-in-left"
+                  data-aos-delay="600"
+                  data-aos-offset="-500"
+                />
+                <div
+                  className="flex flex-col justify-end items-center h-full"
+                  data-aos="zoom-in-left"
+                  data-aos-delay="600"
+                  data-aos-offset="-400"
+                >
+                  <h1 className="text-center text-3xl text-blueatm-900 font-semibold">
+                    40+
+                  </h1>
+                  <h1 className="text-sm">Years of Experience</h1>
+                </div>
+              </div>
+              <div
+                className="bg-slate-50 rounded-xl p-6 flex gap-4 items-center w-full justify-center"
+                data-aos="zoom-in-down"
+                data-aos-delay="450"
+                data-aos-offset="-400"
+              >
+                <Image
+                  src="/icon/1-2.svg"
+                  width={64}
+                  height={64}
+                  alt="container"
+                  data-aos="zoom-in-left"
+                  data-aos-delay="600"
+                  data-aos-offset="-500"
+                />
+                <div
+                  className="flex flex-col justify-end items-center h-full"
+                  data-aos="zoom-in-left"
+                  data-aos-delay="600"
+                  data-aos-offset="-400"
+                >
+                  <h1 className="text-center text-3xl text-blueatm-900 font-semibold">
+                    100+
+                  </h1>
+                  <h1 className="text-sm">Owned Vehicles</h1>
+                </div>
+              </div>
+              <div
+                className="bg-slate-50 rounded-xl p-6 flex gap-4 items-center w-full justify-center"
+                data-aos="zoom-in-down"
+                data-aos-delay="450"
+                data-aos-offset="-400"
+              >
+                <Image
+                  src="/icon/1-3.svg"
+                  width={64}
+                  height={64}
+                  alt="container"
+                  data-aos="zoom-in-left"
+                  data-aos-delay="600"
+                  data-aos-offset="-500"
+                />
+                <div
+                  className="flex flex-col justify-end items-center h-full"
+                  data-aos="zoom-in-left"
+                  data-aos-delay="600"
+                  data-aos-offset="-400"
+                >
+                  <h1 className="text-center text-3xl text-blueatm-900 font-semibold">
+                    500+
+                  </h1>
+                  <h1 className="text-sm">Employees on Staff</h1>
+                </div>
+              </div>
+              <div
+                className="bg-slate-50 rounded-xl p-6 flex gap-4 items-center w-full justify-center"
+                data-aos="zoom-in-down"
+                data-aos-delay="450"
+                data-aos-offset="-400"
+              >
+                <Image
+                  src="/icon/container.svg"
+                  width={64}
+                  height={64}
+                  alt="container"
+                  data-aos="zoom-in-left"
+                  data-aos-delay="600"
+                  data-aos-offset="-500"
+                />
+                <div
+                  className="flex flex-col justify-end items-center h-full"
+                  data-aos="zoom-in-left"
+                  data-aos-delay="600"
+                  data-aos-offset="-400"
+                >
+                  <h1 className="text-center text-3xl text-blueatm-900 font-semibold">
+                    2000+
+                  </h1>
+                  <h1 className="text-sm">Order Shipped Safety</h1>
                 </div>
               </div>
             </div>

@@ -6,6 +6,8 @@ import { cn } from "@/lib/utils";
 import Image from "next/image";
 import { motion, useAnimation } from "framer-motion";
 import { usePathname } from "next/navigation";
+import { Mail } from "lucide-react";
+import { Phone } from "lucide-react";
 import {
   NavigationMenu,
   NavigationMenuContent,
@@ -15,8 +17,11 @@ import {
   NavigationMenuTrigger,
   navigationMenuTriggerStyle,
 } from "@/components/ui/navigation-menu";
-import { Mail } from "lucide-react";
-import { Phone } from "lucide-react";
+import { Menu } from "lucide-react";
+import { User } from "lucide-react";
+import { ClipboardList } from "lucide-react";
+import { BookOpenText } from "lucide-react";
+import { Truck } from "lucide-react";
 
 const components: {
   title: string;
@@ -44,13 +49,14 @@ export const NavLinks = [
   { id: 1, name: "Home", path: "/" },
   { id: 2, name: "About", path: "/about" },
   { id: 3, name: "Services", path: "/services" },
-  { id: 4, name: "Tracking", path: "/tracking" },
+  // { id: 4, name: "Tracking", path: "/tracking" },
   { id: 5, name: "Careers", path: "https://karier.tako.co.id/" },
 ];
 
 export function Navbar() {
   const [prevScrollPos, setPrevScrollPos] = useState(0);
   const [isVisible, setIsVisible] = useState(true);
+  const [isOpen, setIsOpen] = useState(false);
   const controls = useAnimation();
 
   useEffect(() => {
@@ -76,16 +82,13 @@ export function Navbar() {
     };
   }, [isVisible, prevScrollPos]);
 
-  // Variabel untuk mengatur durasi animasi
   const transitionDuration = 0.2;
 
-  // Variabel untuk mengatur animasi navbar saat muncul atau menghilang
   const navbarVariants = {
     hidden: { y: -100, opacity: 0 },
     visible: { y: 0, opacity: 1 },
   };
 
-  // Jalankan animasi menggunakan Framer Motion controls
   useEffect(() => {
     if (isVisible) {
       controls.start("visible");
@@ -96,6 +99,13 @@ export function Navbar() {
 
   const pathname = usePathname();
   const isActive = (path: string) => path === pathname;
+  const [showDropdown, setShowDropdown] = useState(false);
+  // const toggleDropdown = () => {
+  //   setShowDropdown(!showDropdown);
+  // };
+  const toggleMenu = () => {
+    setIsOpen(!isOpen);
+  };
 
   const ListItem = React.forwardRef<
     React.ElementRef<"a">,
@@ -104,7 +114,7 @@ export function Navbar() {
     return (
       <li>
         <NavigationMenuLink asChild>
-          <a
+          <Link
             ref={ref}
             href={href}
             className={cn(
@@ -116,7 +126,7 @@ export function Navbar() {
               {icon}
               <div className="text-sm font-medium leading-none">{title}</div>
             </div>
-          </a>
+          </Link>
         </NavigationMenuLink>
       </li>
     );
@@ -127,9 +137,10 @@ export function Navbar() {
     <>
       <nav>
         <motion.div
-          className="mx-auto bg-white bg-opacity-90 fixed top-0 left-0 right-0 z-50 backdrop-blur"
+          // className="mx-auto bg-white bg-opacity-90 fixed top-0 left-0 right-0 z-50 backdrop-blur"
+          className="mx-auto bg-blueatm-900 fixed top-0 left-0 right-0 z-50"
           initial="visible"
-          animate={controls}
+          // animate={controls}
           variants={navbarVariants}
           transition={{ duration: transitionDuration }}
         >
@@ -137,14 +148,37 @@ export function Navbar() {
             <div className="flex h-16 items-center justify-between">
               <Link href="/">
                 <Image
-                  src="/images/logo/atmlogo.png"
+                  src="/images/logo/atmlogoputih.png"
                   alt="logo"
-                  width={256}
+                  width={320}
                   height={64}
+                  className="w-64 md:w-80"
                 />
               </Link>
 
-              <NavigationMenu>
+              <div className="md:hidden">
+                <button
+                  onClick={toggleMenu}
+                  className="text-white focus:outline-none"
+                >
+                  <svg
+                    className="w-6 h-6"
+                    fill="none"
+                    stroke="currentColor"
+                    viewBox="0 0 24 24"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth={2}
+                      d="M4 6h16M4 12h16M4 18h16"
+                    />
+                  </svg>
+                </button>
+              </div>
+
+              <NavigationMenu className="hidden md:block">
                 <NavigationMenuList>
                   {NavLinks.map((link) => (
                     <NavigationMenuItem key={link.id}>
@@ -155,11 +189,10 @@ export function Navbar() {
                         passHref
                       >
                         <NavigationMenuLink
-                          // className={navigationMenuTriggerStyle()}
                           className={`${navigationMenuTriggerStyle()} ${
                             isActive(link.path)
                               ? "active bg-slate-50 text-blueatm-900 font-semibold"
-                              : "font-medium bg-transparent"
+                              : "font-medium bg-transparent text-white"
                           }`}
                         >
                           {link.name}
@@ -168,7 +201,7 @@ export function Navbar() {
                     </NavigationMenuItem>
                   ))}
                   <NavigationMenuItem>
-                    <NavigationMenuTrigger className="font-medium bg-transparent">
+                    <NavigationMenuTrigger className="font-medium bg-transparent text-white">
                       Contact Us
                     </NavigationMenuTrigger>
                     <NavigationMenuContent>
@@ -190,6 +223,82 @@ export function Navbar() {
           </div>
         </motion.div>
       </nav>
+
+      {isOpen && (
+        <>
+          <div
+            className="fixed inset-0 bg-black bg-opacity-50 z-40" // Pastikan z-index lebih rendah dari sidebar
+            onClick={() => setIsOpen(false)}
+          ></div>
+          <motion.div
+            initial={{ x: -300 }}
+            animate={{ x: 0 }}
+            exit={{ x: -300 }}
+            transition={{ duration: 0.5, ease: "easeOut" }}
+            className="md:hidden fixed inset-0 overflow-hidden z-50"
+          >
+            <div className="relative w-64 h-full bg-blueatm-900 shadow-xl">
+              <div className="flex items-center justify-between p-4 py-[18px] border-b border-gray-200">
+                <Link className="block text-teal-600" href="/">
+                  <span className="sr-only">Home</span>
+                  <Image
+                    src="/images/logo/atmlogoputih.png"
+                    alt="logo"
+                    width={320}
+                    height={64}
+                    className="w-[90%] md:w-40"
+                  />
+                </Link>
+                <button onClick={() => setIsOpen(false)} className="text-white">
+                  <svg
+                    className="w-6 h-6"
+                    fill="none"
+                    stroke="currentColor"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth={2}
+                      d="M6 18L18 6M6 6l12 12"
+                    />
+                  </svg>
+                </button>
+              </div>
+              <nav className="flex flex-col p-4">
+                <Link
+                  href="/"
+                  className="flex gap-4 items-center p-2 text-white hover:bg-greenaml-500 rounded"
+                >
+                  <Menu />
+                  Home
+                </Link>
+                <Link
+                  href="/about"
+                  className="flex gap-4 items-center p-2 text-white hover:bg-greenaml-500 rounded"
+                >
+                  <User />
+                  About
+                </Link>
+                <Link
+                  href="/services"
+                  className="flex gap-4 items-center p-2 text-white hover:bg-greenaml-500 rounded"
+                >
+                  <ClipboardList />
+                  Services
+                </Link>
+                <Link
+                  href="https://karier.tako.co.id/"
+                  className="flex gap-4 items-center p-2 text-white hover:bg-greenaml-500 rounded"
+                >
+                  <BookOpenText />
+                  Careers
+                </Link>
+              </nav>
+            </div>
+          </motion.div>
+        </>
+      )}
     </>
   );
 }

@@ -7,7 +7,7 @@ export default function Cta() {
   return (
     <>
       <div className="mx-auto max-w-screen-xl px-4 py-8 sm:px-6 sm:py-12 lg:px-8 lg:py-32">
-        <div className="bg-blueatm-900 w-full h-full text-white p-24 grid grid-cols-2 relative rounded-xl overflow-hidden">
+        <div className="bg-blueatm-900 w-full h-full text-white p-8 md:p-24 grid md:grid-cols-2 relative rounded-xl overflow-hidden">
           <div className="max-w-sm">
             <h1 className="text-4xl font-bold">
               Pertanyaan anda tidak tercantum di FAQ&apos;s?{" "}
@@ -32,7 +32,7 @@ export default function Cta() {
               alt="container"
               width={1080}
               height={1080}
-              className="h-full w-[28rem] object-cover"
+              className="h-full w-[28rem] object-cover hidden md:block"
             />
           </div>
           <div className="absolute -top-4 -right-32">

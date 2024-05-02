@@ -10,7 +10,7 @@ import Image from "next/image";
 export default function Header() {
   return (
     <>
-      <section className="mx-auto max-w-screen-xl px-4 py-8 sm:px-6 sm:py-12 lg:px-8 lg:py-32">
+      <section className="mx-auto max-w-screen-xl px-4 py-8 sm:px-6 sm:py-12 lg:px-8 lg:py-32 mt-24">
         <div className="flex flex-col gap-4 items-center">
           <p
             className="bg-slate-50 p-2 px-4 inline-block rounded-full text-blueatm-900 font-medium w-fit"
@@ -20,7 +20,7 @@ export default function Header() {
           >
             🚧 Services
           </p>
-          <h1 className="text-5xl max-w-2xl text-center font-semibold text-dark">
+          <h1 className="text-3xl md:text-5xl max-w-2xl text-center font-semibold text-dark">
             Menyajikan{" "}
             <span className="text-blueatm-900">Layanan Logistik Terbaik</span>{" "}
             untuk Anda
@@ -32,7 +32,7 @@ export default function Header() {
         </div>
 
         <Accordion type="single" collapsible className="pt-16">
-          <div className="grid grid-cols-2 gap-8">
+          <div className="grid md:grid-cols-2 gap-8">
             <AccordionItem value="item-1">
               <AccordionTrigger>
                 <div className="flex gap-8 items-center text-xl">

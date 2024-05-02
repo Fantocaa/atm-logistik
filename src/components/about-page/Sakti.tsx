@@ -15,15 +15,15 @@ export default function Sakti() {
   return (
     <>
       <section className="mx-auto max-w-screen-xl px-4 py-8 sm:px-6 sm:py-12 lg:px-8 lg:py-32">
-        <div className="grid grid-cols-6 gap-4 pb-4">
+        <div className="grid md:grid-cols-6 gap-4 pb-4">
           <div
             className="w-full col-span-3 flex justify-center flex-col"
             data-aos="zoom-in-down"
             data-aos-delay="450"
             data-aos-offset="-400"
           >
-            <div className="flex gap-12 items-center">
-              <h1 className="text-center text-[64px] text-blueatm-900 font-bold">
+            <div className="md:flex gap-12 items-center max-w-sm md:max-w-xl">
+              <h1 className=" md:text-center text-[64px] text-blueatm-900 font-bold">
                 SAKTI
               </h1>
               <h1 className="w-full text-lg">
@@ -33,7 +33,7 @@ export default function Sakti() {
                 setiap pengiriman.
               </h1>
             </div>
-            <div className="flex gap-4 pt-8">
+            <div className="flex flex-wrap gap-2 pt-8">
               {isiBadge.map((value) => (
                 <Badge
                   variant="default"
@@ -47,7 +47,7 @@ export default function Sakti() {
           </div>
 
           <div
-            className="bg-slate-50 rounded-xl w-full col-span-3"
+            className="bg-slate-50 rounded-xl w-full col-span-3 hidden md:block"
             data-aos="zoom-in-down"
             data-aos-delay="450"
             data-aos-offset="-400"

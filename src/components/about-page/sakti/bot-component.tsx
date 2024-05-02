@@ -34,7 +34,7 @@ export default function BotComponent() {
 
   return (
     <div>
-      <div className="grid grid-cols-6 gap-4">
+      <div className="grid md:grid-cols-6 gap-4">
         {valueSakti1.map((value) => (
           <div
             className="bg-slate-50 rounded-xl p-6 w-full col-span-3 hover:bg-blueatm-900 hover:text-white group"

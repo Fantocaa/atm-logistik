@@ -12,8 +12,49 @@ export default function Services() {
   return (
     <>
       <section className="mx-auto max-w-screen-xl px-4 py-8 sm:px-6 sm:py-12 lg:px-8 lg:py-32">
-        <div className="flex gap-8">
-          <div className="w-1/2 flex flex-col gap-5">
+        <div className="md:flex flex-row-reverse gap-8 justify-end">
+          <div>
+            <p
+              className="bg-slate-50 p-2 px-4 inline-block rounded-full text-blueatm-900 font-medium w-fit"
+              data-aos="zoom-in-right"
+              data-aos-delay="200"
+              data-aos-offset="-300"
+            >
+              🛟 Our Services
+            </p>
+            <h2
+              className="text-3xl font-semibold sm:text-[56px] max-w-[31rem] leading-none pt-6 text-dark"
+              data-aos="zoom-out-up"
+              data-aos-offset="-300"
+            >
+              Menyajikan{" "}
+              <span className="text-blueatm-900">Layanan Logistik Terbaik</span>{" "}
+              untuk Anda
+            </h2>
+
+            <p
+              className="mt-4 text-gray-600 text-xl max-w-[32rem]"
+              data-aos="zoom-out-up"
+              data-aos-delay="300"
+              data-aos-offset="-300"
+            >
+              Mengingat setiap customer memiliki kebutuhan yang berbeda-beda,
+              kami menyediakan berbagai service pelayanan yang fleksibel dan
+              variatif.
+            </p>
+
+            <Button
+              variant="default"
+              className=" py-3 mt-8 bg-blueatm-900 hover:bg-blueatm-600 rounded-full flex gap-2 transition-all w-fit"
+              data-aos="zoom-in-right"
+              data-aos-delay="400"
+              data-aos-offset="-300"
+            >
+              View All Services
+              <ArrowRight />
+            </Button>
+          </div>
+          <div className="md:w-1/2 flex flex-col gap-5 pt-16 md:pt-0">
             <div className="flex items-center gap-16">
               <Image
                 src="/icon/1.svg"
@@ -98,52 +139,11 @@ export default function Services() {
             </div>
             <Separator data-aos-delay="450" data-aos-offset="-300" />
           </div>
-          <div>
-            <p
-              className="bg-slate-50 p-2 px-4 inline-block rounded-full text-blueatm-900 font-medium w-fit"
-              data-aos="zoom-in-right"
-              data-aos-delay="200"
-              data-aos-offset="-300"
-            >
-              🛟 Our Services
-            </p>
-            <h2
-              className="text-3xl font-semibold sm:text-[56px] max-w-[31rem] leading-none pt-6 text-dark"
-              data-aos="zoom-out-up"
-              data-aos-offset="-300"
-            >
-              Menyajikan{" "}
-              <span className="text-blueatm-900">Layanan Logistik Terbaik</span>{" "}
-              untuk Anda
-            </h2>
-
-            <p
-              className="mt-4 text-gray-600 text-xl max-w-[32rem]"
-              data-aos="zoom-out-up"
-              data-aos-delay="300"
-              data-aos-offset="-300"
-            >
-              Mengingat setiap customer memiliki kebutuhan yang berbeda-beda,
-              kami menyediakan berbagai service pelayanan yang fleksibel dan
-              variatif.
-            </p>
-
-            <Button
-              variant="default"
-              className=" py-3 mt-8 bg-blueatm-900 hover:bg-blueatm-600 rounded-full flex gap-2 transition-all w-fit"
-              data-aos="zoom-in-right"
-              data-aos-delay="400"
-              data-aos-offset="-300"
-            >
-              View All Services
-              <ArrowRight />
-            </Button>
-          </div>
         </div>
 
         <div className="pt-16">
-          <div className="flex h-32 justify-center gap-16 items-center space-x-4">
-            <Separator orientation="vertical" />
+          <div className="grid grid-cols-2 md:flex h-32 justify-center gap-12 md:gap-16 items-center space-x-4 mt-8 md:mt-0">
+            <Separator orientation="vertical" className="hidden md:block" />
             <div className="flex flex-col items-center">
               <Image
                 src="/icon/1-1.svg"
@@ -177,7 +177,7 @@ export default function Services() {
                 Years of Experience
               </h1>
             </div>
-            <Separator orientation="vertical" />
+            <Separator orientation="vertical" className="hidden md:block" />
             <div className="flex flex-col items-center">
               <Image
                 src="/icon/1-2.svg"
@@ -212,7 +212,7 @@ export default function Services() {
                 Owned Vehicles
               </h1>
             </div>
-            <Separator orientation="vertical" />
+            <Separator orientation="vertical" className="hidden md:block" />
             <div className="flex flex-col items-center">
               <Image
                 src="/icon/1-3.svg"
@@ -247,7 +247,7 @@ export default function Services() {
                 Employee&apos;s Staff
               </h1>
             </div>
-            <Separator orientation="vertical" />
+            <Separator orientation="vertical" className="hidden md:block" />
             <div className="flex flex-col items-center">
               <Image
                 src="/icon/container.svg"
@@ -282,7 +282,7 @@ export default function Services() {
                 Order Shipped Safety
               </h1>
             </div>
-            <Separator orientation="vertical" />
+            <Separator orientation="vertical" className="hidden md:block" />
           </div>
         </div>
       </section>

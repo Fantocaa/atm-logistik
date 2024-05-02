@@ -1,7 +1,5 @@
 import React from "react";
 import Image from "next/image";
-import { Button } from "@/components/ui/button";
-import Link from "next/link";
 
 export default function ServicesArea() {
   return (
@@ -23,10 +21,9 @@ export default function ServicesArea() {
               solusi logistik yang efisien dan terpercaya di seluruh lokasi.
             </p>
           </div>
-          {/* <div className=" md:max-w-screen-md 2xl:max-w-screen-lg mx-auto pb-32 flex flex-col items-center"></div> */}
           <div className="relative">
             <Image
-              src="/images/Provinces.svg"
+              src="/images/map.gif"
               alt="map"
               width={2560}
               height={2560}
@@ -40,7 +37,7 @@ export default function ServicesArea() {
               </span>
             </div>
           </div>
-          <div className="pt-16 w-full grid grid-cols-3">
+          <div className="pt-16 w-full grid grid-cols-1 md:grid-cols-3">
             <div>
               <h1 className="text-2xl">Sumatera & Kepulauan Riau</h1>
               <ul className="grid grid-rows-6 grid-cols-2 list-disc list-inside gap-2 pt-4 text-gray-600">
@@ -58,7 +55,7 @@ export default function ServicesArea() {
                 <li>Sibolga</li>
               </ul>
             </div>
-            <div>
+            <div className="mt-8 md:mt-0">
               <h1 className="text-2xl">Maluku</h1>
               <ul className="grid grid-rows-6 grid-cols-2 list-disc list-inside gap-2 pt-4 text-gray-600">
                 <li>Ambon</li>
@@ -109,7 +106,7 @@ export default function ServicesArea() {
             </div>
             <div className="pt-16">
               <h1 className="text-2xl">Lombok & Sumbawa (NTB)</h1>
-              <ul className="grid grid-rows-6 grid-cols-2 list-disc list-inside gap-2 pt-4 text-gray-600">
+              <ul className="grid grid-rows-4 md:grid-rows-6 grid-cols-2 list-disc list-inside gap-2 pt-4 text-gray-600">
                 <li>Mataram</li>
                 <li>Kumai</li>
                 <li>Bima</li>
@@ -144,7 +141,6 @@ export default function ServicesArea() {
           </div>
         </div>
       </div>
-      {/* </section> */}
     </>
   );
 }
