@@ -18,8 +18,7 @@ export default function Bio() {
       name: "Rio Nizar Firdauzi",
       path: "/images/rio.png",
       company: "Direktur PT. Anugerah Trans Maritim",
-      quote:
-        "When you have a dream, you&apos;ve got to grab it and never let go.",
+      quote: "When you have a dream, you've got to grab it and never let go.",
       exp: [
         {
           expdetails: "MANAGER AREA PT.DUMMY (2009 - 2018)",
@@ -34,8 +33,7 @@ export default function Bio() {
       name: "Rio Nizar Firdauzi",
       path: "/images/rio.png",
       company: "Direktur PT. Anugerah Trans Maritim",
-      quote:
-        "When you have a dream, you&apos;ve got to grab it and never let go.",
+      quote: "When you have a dream, you've got to grab it and never let go.",
       exp: [
         {
           expdetails: "MANAGER AREA PT.DUMMY (2009 - 2018)",
@@ -50,8 +48,7 @@ export default function Bio() {
       name: "Rio Nizar Firdauzi",
       path: "/images/rio.png",
       company: "Direktur PT. Anugerah Trans Maritim",
-      quote:
-        "When you have a dream, you&apos;ve got to grab it and never let go.",
+      quote: "When you have a dream, you've got to grab it and never let go.",
       exp: [
         {
           expdetails: "MANAGER AREA PT.DUMMY (2009 - 2018)",
@@ -66,8 +63,7 @@ export default function Bio() {
       name: "Rio Nizar Firdauzi",
       path: "/images/rio.png",
       company: "Direktur PT. Anugerah Trans Maritim",
-      quote:
-        "When you have a dream, you&apos;ve got to grab it and never let go.",
+      quote: "When you have a dream, you've got to grab it and never let go.",
       exp: [
         {
           expdetails: "MANAGER AREA PT.DUMMY (2009 - 2018)",
@@ -82,8 +78,7 @@ export default function Bio() {
       name: "Rio Nizar Firdauzi",
       path: "/images/rio.png",
       company: "Direktur PT. Anugerah Trans Maritim",
-      quote:
-        "When you have a dream, you&apos;ve got to grab it and never let go.",
+      quote: "When you have a dream, you've got to grab it and never let go.",
       exp: [
         {
           expdetails: "MANAGER AREA PT.DUMMY (2009 - 2018)",

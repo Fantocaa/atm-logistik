@@ -149,7 +149,7 @@ export default function Member() {
                 <CarouselContent>
                   {Member.map((value, index) => (
                     <CarouselItem
-                      className="basis-2/4 md:basis-1/3"
+                      className="basis-11/12 md:basis-1/3"
                       key={value.id}
                     >
                       <div className="bg-white bg-opacity-10 rounded-xl relative">

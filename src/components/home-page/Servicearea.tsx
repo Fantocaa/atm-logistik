@@ -27,7 +27,7 @@ export default function ServicesArea() {
               alt="map"
               width={1280}
               height={1280}
-              className="mx-auto w-full h-[480px] object-cover"
+              className="mx-auto w-full h-full md:h-[480px] object-cover"
             />
             <div className="md:block">
               {/* Sumatera */}

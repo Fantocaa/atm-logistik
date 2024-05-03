@@ -142,7 +142,7 @@ export default function Services() {
         </div>
 
         <div className="pt-16">
-          <div className="grid grid-cols-2 md:flex h-32 justify-center gap-12 md:gap-16 items-center space-x-4 mt-8 md:mt-0">
+          <div className="grid grid-cols-2 md:flex h-32 justify-center gap-8 md:gap-16 items-center mt-8 md:mt-0">
             <Separator orientation="vertical" className="hidden md:block" />
             <div className="flex flex-col items-center">
               <Image
@@ -278,6 +278,7 @@ export default function Services() {
                 data-aos-duration="800"
                 data-aos-delay="200"
                 data-aos-offset="-300"
+                className="text-center"
               >
                 Order Shipped Safety
               </h1>
