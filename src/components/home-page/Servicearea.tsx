@@ -25,9 +25,9 @@ export default function ServicesArea() {
             <Image
               src="/images/map.gif"
               alt="map"
-              width={2560}
-              height={2560}
-              className="mx-auto w-full h-full"
+              width={1280}
+              height={1280}
+              className="mx-auto w-full h-[480px] object-cover"
             />
             <div className="md:block">
               {/* Sumatera */}

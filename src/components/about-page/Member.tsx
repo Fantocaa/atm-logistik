@@ -96,7 +96,7 @@ export default function Member() {
   ];
 
   return (
-    <section className="bg-blueatm-900 text-white mt-8 py-8">
+    <section className="bg-blueatm-900 text-white mt-8 py-8 mb-32">
       <div className="relative">
         <div className="absolute top-64 -left-32 2xl:left-0">
           <Image

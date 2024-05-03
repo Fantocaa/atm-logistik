@@ -10,7 +10,7 @@ import Image from "next/image";
 export default function Header() {
   return (
     <>
-      <section className="mx-auto max-w-screen-xl px-4 py-8 sm:px-6 sm:py-12 lg:px-8 lg:py-32 mt-24">
+      <section className="mx-auto max-w-screen-xl px-4 py-8 sm:px-6 sm:py-12 lg:px-8 lg:pt-32 lg:pb-8 mt-24 md:mt-0">
         <div className="flex flex-col gap-4 items-center">
           <p
             className="bg-slate-50 p-2 px-4 inline-block rounded-full text-blueatm-900 font-medium w-fit"

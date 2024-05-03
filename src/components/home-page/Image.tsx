@@ -21,7 +21,7 @@ export default function ImageSection() {
   const [index, setIndex] = useState<number>(-1);
 
   return (
-    <div className="mx-auto max-w-screen-xl px-4 py-8 sm:px-6 sm:py-12 lg:px-8 lg:py-32">
+    <div className="mx-auto max-w-screen-xl px-4 py-8 sm:px-6 sm:py-12 lg:px-8 lg:py-8">
       <>
         <Images
           data={slides}

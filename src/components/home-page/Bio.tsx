@@ -96,7 +96,7 @@ export default function Bio() {
   ];
 
   return (
-    <section className="bg-blueatm-900 text-white mt-72">
+    <section className="bg-blueatm-900 text-white mt-72 md:mt-8">
       <div className="relative">
         <div className="absolute top-64 -left-32 2xl:left-0">
           <Image
@@ -140,7 +140,7 @@ export default function Bio() {
 
             <div>
               <Carousel
-                className="max-w-sm md:max-w-screen-lg px-4 md:px-0"
+                className="max-w-sm md:max-w-screen-lg"
                 opts={{
                   align: "start",
                   // loop: true,
@@ -149,7 +149,7 @@ export default function Bio() {
                 <CarouselContent>
                   {Member.map((value, index) => (
                     <CarouselItem
-                      className="basis-2/4 md:basis-1/3"
+                      className="basis-11/12 md:basis-1/3"
                       key={value.id}
                     >
                       <div className="bg-white bg-opacity-10 rounded-xl relative">
@@ -178,7 +178,7 @@ export default function Bio() {
                           </div>
                         </div>
                       </div>
-                      <ul className="list-disc text-white pt-4 ml-6 text-sm w-full">
+                      <ul className="list-disc max-w-xs md:max-w-xl text-white pt-4 ml-6 text-sm w-full">
                         {value.exp.map((experience, index) => (
                           <li key={index}>{experience.expdetails}</li>
                         ))}
