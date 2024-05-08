@@ -31,7 +31,7 @@ export default function Footer() {
                 anda.
               </p>
 
-              <ul className="mt-8 flex justify-center gap-6 sm:justify-start md:gap-8">
+              {/* <ul className="mt-8 flex justify-center gap-6 sm:justify-start md:gap-8">
                 <li>
                   <a
                     href="#"
@@ -142,7 +142,7 @@ export default function Footer() {
                     </svg>
                   </a>
                 </li>
-              </ul>
+              </ul> */}
             </div>
 
             <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 md:grid-cols-4 lg:col-span-2">
@@ -173,7 +173,7 @@ export default function Footer() {
 
                 <ul className="mt-8 space-y-4 text-sm">
                   <li>
-                    <a
+                    <Link
                       className="flex items-center justify-center gap-1.5 ltr:sm:justify-start rtl:sm:justify-end"
                       href="#"
                     >
@@ -192,12 +192,14 @@ export default function Footer() {
                         />
                       </svg>
 
-                      <span className="flex-1 text-gray-700">john@doe.com</span>
-                    </a>
+                      <span className="flex-1 text-gray-700">
+                        marketing@atmtrans.id
+                      </span>
+                    </Link>
                   </li>
 
                   <li>
-                    <a
+                    <Link
                       className="flex items-center justify-center gap-1.5 ltr:sm:justify-start rtl:sm:justify-end"
                       href="#"
                     >
@@ -216,8 +218,8 @@ export default function Footer() {
                         />
                       </svg>
 
-                      <span className="flex-1 text-gray-700">0123456789</span>
-                    </a>
+                      <span className="flex-1 text-gray-700">031 3537 968</span>
+                    </Link>
                   </li>
 
                   <li className="flex items-start justify-center gap-1.5 ltr:sm:justify-start rtl:sm:justify-end">

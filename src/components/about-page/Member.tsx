@@ -29,70 +29,70 @@ export default function Member() {
         },
       ],
     },
-    {
-      id: 2,
-      name: "Rio Nizar Firdauzi",
-      path: "/images/rio.png",
-      company: "Direktur PT. Anugerah Trans Maritim",
-      quote:
-        "When you have a dream, you&apos;ve got to grab it and never let go.",
-      exp: [
-        {
-          expdetails: "MANAGER AREA PT.DUMMY (2009 - 2018)",
-        },
-        {
-          expdetails: "DIRECTOR OF PT.ANUGERAH TRANS MARITIM (2018 - Present)",
-        },
-      ],
-    },
-    {
-      id: 3,
-      name: "Rio Nizar Firdauzi",
-      path: "/images/rio.png",
-      company: "Direktur PT. Anugerah Trans Maritim",
-      quote:
-        "When you have a dream, you&apos;ve got to grab it and never let go.",
-      exp: [
-        {
-          expdetails: "MANAGER AREA PT.DUMMY (2009 - 2018)",
-        },
-        {
-          expdetails: "DIRECTOR OF PT.ANUGERAH TRANS MARITIM (2018 - Present)",
-        },
-      ],
-    },
-    {
-      id: 4,
-      name: "Rio Nizar Firdauzi",
-      path: "/images/rio.png",
-      company: "Direktur PT. Anugerah Trans Maritim",
-      quote:
-        "When you have a dream, you&apos;ve got to grab it and never let go.",
-      exp: [
-        {
-          expdetails: "MANAGER AREA PT.DUMMY (2009 - 2018)",
-        },
-        {
-          expdetails: "DIRECTOR OF PT.ANUGERAH TRANS MARITIM (2018 - Present)",
-        },
-      ],
-    },
-    {
-      id: 5,
-      name: "Rio Nizar Firdauzi",
-      path: "/images/rio.png",
-      company: "Direktur PT. Anugerah Trans Maritim",
-      quote:
-        "When you have a dream, you&apos;ve got to grab it and never let go.",
-      exp: [
-        {
-          expdetails: "MANAGER AREA PT.DUMMY (2009 - 2018)",
-        },
-        {
-          expdetails: "DIRECTOR OF PT.ANUGERAH TRANS MARITIM (2018 - Present)",
-        },
-      ],
-    },
+    // {
+    //   id: 2,
+    //   name: "Rio Nizar Firdauzi",
+    //   path: "/images/rio.png",
+    //   company: "Direktur PT. Anugerah Trans Maritim",
+    //   quote:
+    //     "When you have a dream, you&apos;ve got to grab it and never let go.",
+    //   exp: [
+    //     {
+    //       expdetails: "MANAGER AREA PT.DUMMY (2009 - 2018)",
+    //     },
+    //     {
+    //       expdetails: "DIRECTOR OF PT.ANUGERAH TRANS MARITIM (2018 - Present)",
+    //     },
+    //   ],
+    // },
+    // {
+    //   id: 3,
+    //   name: "Rio Nizar Firdauzi",
+    //   path: "/images/rio.png",
+    //   company: "Direktur PT. Anugerah Trans Maritim",
+    //   quote:
+    //     "When you have a dream, you&apos;ve got to grab it and never let go.",
+    //   exp: [
+    //     {
+    //       expdetails: "MANAGER AREA PT.DUMMY (2009 - 2018)",
+    //     },
+    //     {
+    //       expdetails: "DIRECTOR OF PT.ANUGERAH TRANS MARITIM (2018 - Present)",
+    //     },
+    //   ],
+    // },
+    // {
+    //   id: 4,
+    //   name: "Rio Nizar Firdauzi",
+    //   path: "/images/rio.png",
+    //   company: "Direktur PT. Anugerah Trans Maritim",
+    //   quote:
+    //     "When you have a dream, you&apos;ve got to grab it and never let go.",
+    //   exp: [
+    //     {
+    //       expdetails: "MANAGER AREA PT.DUMMY (2009 - 2018)",
+    //     },
+    //     {
+    //       expdetails: "DIRECTOR OF PT.ANUGERAH TRANS MARITIM (2018 - Present)",
+    //     },
+    //   ],
+    // },
+    // {
+    //   id: 5,
+    //   name: "Rio Nizar Firdauzi",
+    //   path: "/images/rio.png",
+    //   company: "Direktur PT. Anugerah Trans Maritim",
+    //   quote:
+    //     "When you have a dream, you&apos;ve got to grab it and never let go.",
+    //   exp: [
+    //     {
+    //       expdetails: "MANAGER AREA PT.DUMMY (2009 - 2018)",
+    //     },
+    //     {
+    //       expdetails: "DIRECTOR OF PT.ANUGERAH TRANS MARITIM (2018 - Present)",
+    //     },
+    //   ],
+    // },
   ];
 
   return (
@@ -178,11 +178,11 @@ export default function Member() {
                           </div>
                         </div>
                       </div>
-                      <ul className="list-disc text-white pt-4 ml-6 text-sm w-full">
+                      {/* <ul className="list-disc text-white pt-4 ml-6 text-sm w-full">
                         {value.exp.map((experience, index) => (
                           <li key={index}>{experience.expdetails}</li>
                         ))}
-                      </ul>
+                      </ul> */}
                     </CarouselItem>
                   ))}
                 </CarouselContent>
