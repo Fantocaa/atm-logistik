@@ -141,7 +141,7 @@ export default function Services() {
           </div>
         </div>
 
-        <div className="pt-16 hidden">
+        <div className="pt-16">
           <div className="grid grid-cols-2 md:flex h-32 justify-center gap-8 md:gap-16 items-center mt-8 md:mt-0">
             <Separator orientation="vertical" className="hidden md:block" />
             <div className="flex flex-col items-center">
@@ -150,13 +150,13 @@ export default function Services() {
                 alt="icon"
                 width={64}
                 height={64}
-                data-aos="fade-down"
+                data-aos="zoom-in-down"
                 data-aos-duration="1000"
                 data-aos-offset="-350"
               />
               <p
                 className="text-4xl pt-4 font-semibold text-blueatm-900"
-                data-aos="fade-up"
+                data-aos="zoom-in-up"
                 data-aos-duration="1000"
                 data-aos-offset="-350"
               >
@@ -184,14 +184,14 @@ export default function Services() {
                 alt="icon"
                 width={64}
                 height={64}
-                data-aos="fade-down"
+                data-aos="zoom-in-down"
                 data-aos-duration="1000"
                 data-aos-delay="100"
                 data-aos-offset="-350"
               />
               <p
                 className="text-4xl pt-4 font-semibold text-blueatm-900"
-                data-aos="fade-up"
+                data-aos="zoom-in-up"
                 data-aos-duration="1000"
                 data-aos-offset="-350"
               >
@@ -219,14 +219,14 @@ export default function Services() {
                 alt="icon"
                 width={64}
                 height={64}
-                data-aos="fade-down"
+                data-aos="zoom-in-down"
                 data-aos-duration="1000"
                 data-aos-delay="200"
                 data-aos-offset="-350"
               />
               <p
                 className="text-4xl pt-4 font-semibold text-blueatm-900"
-                data-aos="fade-up"
+                data-aos="zoom-in-up"
                 data-aos-duration="1000"
                 data-aos-offset="-350"
               >
@@ -254,14 +254,14 @@ export default function Services() {
                 alt="icon"
                 width={64}
                 height={64}
-                data-aos="fade-down"
+                data-aos="zoom-in-down"
                 data-aos-duration="1000"
                 data-aos-delay="300"
                 data-aos-offset="-350"
               />
               <p
                 className="text-4xl pt-4 font-semibold text-blueatm-900"
-                data-aos="fade-up"
+                data-aos="zoom-in-up"
                 data-aos-duration="1000"
                 data-aos-offset="-350"
               >
