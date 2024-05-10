@@ -141,7 +141,7 @@ export default function Services() {
           </div>
         </div>
 
-        <div className="pt-16">
+        <div className="pt-16 hidden">
           <div className="grid grid-cols-2 md:flex h-32 justify-center gap-8 md:gap-16 items-center mt-8 md:mt-0">
             <Separator orientation="vertical" className="hidden md:block" />
             <div className="flex flex-col items-center">
