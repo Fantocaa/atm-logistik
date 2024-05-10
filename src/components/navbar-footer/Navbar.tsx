@@ -39,7 +39,7 @@ const components: {
   {
     title: "Email",
     icon: <Mail />,
-    href: "mailto:fantocaa17@gmail.com",
+    href: "mailto:marketing@atmtrans.id",
     description:
       "For sighted users to preview content available behind a link.",
   },

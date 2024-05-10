@@ -21,10 +21,20 @@ export default function Bio() {
       quote: "When you have a dream, you've got to grab it and never let go.",
       exp: [
         {
-          expdetails: "MANAGER AREA PT.DUMMY (2009 - 2018)",
+          expdetails: "Management Trainee PT. Meratus Line 2006-2008",
         },
         {
-          expdetails: "DIRECTOR OF PT.ANUGERAH TRANS MARITIM (2018 - Present)",
+          expdetails: "Koordinator Sales Meratus Door Service 2008-2010",
+        },
+        {
+          expdetails: "Kepala Cabang PT. Meratus Line Cab. Kupang 2010-2013",
+        },
+        {
+          expdetails:
+            "Direktur PT. Anugerah Mandiri International Trans 2013-2016",
+        },
+        {
+          expdetails: "Direktur PT. Anugerah Trans Maritim 2016-Sekarang",
         },
       ],
     },
@@ -106,7 +116,7 @@ export default function Bio() {
           <div className="flex flex-col items-center gap-8">
             <p
               className="bg-slate-50 p-2 px-4 inline-block rounded-full text-blueatm-900 font-medium w-fit"
-              data-aos="zoom-in-right"
+              data-aos="zoom-in-up"
               data-aos-delay="100"
               data-aos-offset="-300"
             >
@@ -114,7 +124,7 @@ export default function Bio() {
             </p>
             <h1
               className="text-4xl max-w-2xl text-center font-semibold"
-              data-aos="zoom-in-right"
+              data-aos="zoom-in-up"
               data-aos-delay="200"
               data-aos-offset="-300"
             >
@@ -123,7 +133,7 @@ export default function Bio() {
             </h1>
             <p
               className="text-center max-w-3xl z-10"
-              data-aos="zoom-in-left"
+              data-aos="zoom-in-bottom"
               data-aos-delay="250"
               data-aos-offset="-300"
             >
@@ -173,11 +183,11 @@ export default function Bio() {
                           </div>
                         </div>
                       </div>
-                      {/* <ul className="list-disc max-w-xs md:max-w-xl text-white pt-4 ml-6 text-sm w-full">
+                      <ul className="list-disc max-w-xs md:max-w-xl text-white pt-4 ml-6 text-sm w-full">
                         {value.exp.map((experience, index) => (
                           <li key={index}>{experience.expdetails}</li>
                         ))}
-                      </ul> */}
+                      </ul>
                     </CarouselItem>
                   ))}
                 </CarouselContent>
@@ -188,7 +198,7 @@ export default function Bio() {
             <Button
               variant="default"
               className=" py-3 mt-8 text-blueatm-900 bg-white hover:bg-blue-50 rounded-full flex gap-2 transition-all w-fit"
-              data-aos="zoom-in-right"
+              data-aos="zoom-in-up"
               data-aos-delay="400"
               data-aos-offset="-300"
             >

@@ -16,7 +16,7 @@ export default function Services() {
           <div>
             <p
               className="bg-slate-50 p-2 px-4 inline-block rounded-full text-blueatm-900 font-medium w-fit"
-              data-aos="zoom-in-right"
+              data-aos="zoom-in-up"
               data-aos-delay="200"
               data-aos-offset="-300"
             >
@@ -46,7 +46,7 @@ export default function Services() {
             <Button
               variant="default"
               className=" py-3 mt-8 bg-blueatm-900 hover:bg-blueatm-600 rounded-full flex gap-2 transition-all w-fit"
-              data-aos="zoom-in-right"
+              data-aos="zoom-in-up"
               data-aos-delay="400"
               data-aos-offset="-300"
             >
@@ -61,13 +61,13 @@ export default function Services() {
                 alt="icon"
                 width={64}
                 height={64}
-                data-aos="zoom-in-right"
+                data-aos="zoom-in-up"
                 data-aos-offset="-300"
                 // data-aos-delay="200"
               />
               <h1
                 className="text-3xl"
-                data-aos="fade-right"
+                data-aos="fade-up"
                 data-aos-delay="100"
                 data-aos-offset="-300"
               >
@@ -82,13 +82,13 @@ export default function Services() {
                 alt="icon"
                 width={64}
                 height={64}
-                data-aos="zoom-in-right"
+                data-aos="zoom-in-up"
                 data-aos-delay="100"
                 data-aos-offset="-300"
               />
               <h1
                 className="text-3xl"
-                data-aos="fade-right"
+                data-aos="fade-up"
                 data-aos-delay="200"
                 data-aos-offset="-300"
               >
@@ -103,13 +103,13 @@ export default function Services() {
                 alt="icon"
                 width={64}
                 height={64}
-                data-aos="zoom-in-right"
+                data-aos="zoom-in-up"
                 data-aos-delay="200"
                 data-aos-offset="-300"
               />
               <h1
                 className="text-3xl"
-                data-aos="fade-right"
+                data-aos="fade-up"
                 data-aos-delay="300"
                 data-aos-offset="-300"
               >
@@ -124,13 +124,13 @@ export default function Services() {
                 alt="icon"
                 width={64}
                 height={64}
-                data-aos="zoom-in-right"
+                data-aos="zoom-in-up"
                 data-aos-delay="300"
                 data-aos-offset="-300"
               />
               <h1
                 className="text-3xl"
-                data-aos="fade-right"
+                data-aos="fade-up"
                 data-aos-delay="400"
                 data-aos-offset="-300"
               >
@@ -156,7 +156,7 @@ export default function Services() {
               />
               <p
                 className="text-4xl pt-4 font-semibold text-blueatm-900"
-                data-aos="fade-right"
+                data-aos="fade-up"
                 data-aos-duration="1000"
                 data-aos-offset="-300"
               >
@@ -169,7 +169,7 @@ export default function Services() {
                 +
               </p>
               <h1
-                data-aos="zoom-in-right"
+                data-aos="zoom-in-up"
                 data-aos-duration="800"
                 data-aos-delay="200"
                 data-aos-offset="-300"
@@ -191,7 +191,7 @@ export default function Services() {
               />
               <p
                 className="text-4xl pt-4 font-semibold text-blueatm-900"
-                data-aos="fade-right"
+                data-aos="fade-up"
                 data-aos-duration="1000"
                 data-aos-offset="-300"
               >
@@ -204,7 +204,7 @@ export default function Services() {
                 +
               </p>
               <h1
-                data-aos="zoom-in-right"
+                data-aos="zoom-in-up"
                 data-aos-duration="800"
                 data-aos-delay="200"
                 data-aos-offset="-300"
@@ -226,7 +226,7 @@ export default function Services() {
               />
               <p
                 className="text-4xl pt-4 font-semibold text-blueatm-900"
-                data-aos="fade-right"
+                data-aos="fade-up"
                 data-aos-duration="1000"
                 data-aos-offset="-300"
               >
@@ -239,7 +239,7 @@ export default function Services() {
                 +
               </p>
               <h1
-                data-aos="zoom-in-right"
+                data-aos="zoom-in-up"
                 data-aos-duration="800"
                 data-aos-delay="200"
                 data-aos-offset="-300"
@@ -261,7 +261,7 @@ export default function Services() {
               />
               <p
                 className="text-4xl pt-4 font-semibold text-blueatm-900"
-                data-aos="fade-right"
+                data-aos="fade-up"
                 data-aos-duration="1000"
                 data-aos-offset="-300"
               >
@@ -274,7 +274,7 @@ export default function Services() {
                 +
               </p>
               <h1
-                data-aos="zoom-in-right"
+                data-aos="zoom-in-up"
                 data-aos-duration="800"
                 data-aos-delay="200"
                 data-aos-offset="-300"

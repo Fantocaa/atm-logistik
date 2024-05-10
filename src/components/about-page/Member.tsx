@@ -22,10 +22,20 @@ export default function Member() {
         "When you have a dream, you&apos;ve got to grab it and never let go.",
       exp: [
         {
-          expdetails: "MANAGER AREA PT.DUMMY (2009 - 2018)",
+          expdetails: "Management Trainee PT. Meratus Line 2006-2008",
         },
         {
-          expdetails: "DIRECTOR OF PT.ANUGERAH TRANS MARITIM (2018 - Present)",
+          expdetails: "Koordinator Sales Meratus Door Service 2008-2010",
+        },
+        {
+          expdetails: "Kepala Cabang PT. Meratus Line Cab. Kupang 2010-2013",
+        },
+        {
+          expdetails:
+            "Direktur PT. Anugerah Mandiri International Trans 2013-2016",
+        },
+        {
+          expdetails: "Direktur PT. Anugerah Trans Maritim 2016-Sekarang",
         },
       ],
     },
@@ -178,11 +188,11 @@ export default function Member() {
                           </div>
                         </div>
                       </div>
-                      {/* <ul className="list-disc text-white pt-4 ml-6 text-sm w-full">
+                      <ul className="list-disc text-white pt-4 ml-6 text-sm w-full">
                         {value.exp.map((experience, index) => (
                           <li key={index}>{experience.expdetails}</li>
                         ))}
-                      </ul> */}
+                      </ul>
                     </CarouselItem>
                   ))}
                 </CarouselContent>

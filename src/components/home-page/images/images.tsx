@@ -30,7 +30,7 @@ const Images: FC<ImagesProps> = (props) => {
             alt={slide.description}
             width={1080}
             height={1080}
-            className="rounded-xl cursor-pointer"
+            className="rounded-xl cursor-pointer h-32 md:h-80 object-cover"
           />
         </div>
       ))}
