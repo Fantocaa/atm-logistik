@@ -18,14 +18,14 @@ export default function Services() {
               className="bg-slate-50 p-2 px-4 inline-block rounded-full text-blueatm-900 font-medium w-fit"
               data-aos="zoom-in-up"
               data-aos-delay="200"
-              data-aos-offset="-300"
+              data-aos-offset="-350"
             >
               🛟 Our Services
             </p>
             <h2
               className="text-3xl font-semibold sm:text-[56px] max-w-[31rem] leading-none pt-6 text-dark"
               data-aos="zoom-out-up"
-              data-aos-offset="-300"
+              data-aos-offset="-350"
             >
               Menyajikan{" "}
               <span className="text-blueatm-900">Layanan Logistik Terbaik</span>{" "}
@@ -36,7 +36,7 @@ export default function Services() {
               className="mt-4 text-gray-600 text-xl max-w-[32rem]"
               data-aos="zoom-out-up"
               data-aos-delay="300"
-              data-aos-offset="-300"
+              data-aos-offset="-350"
             >
               Mengingat setiap customer memiliki kebutuhan yang berbeda-beda,
               kami menyediakan berbagai service pelayanan yang fleksibel dan
@@ -48,7 +48,7 @@ export default function Services() {
               className=" py-3 mt-8 bg-blueatm-900 hover:bg-blueatm-600 rounded-full flex gap-2 transition-all w-fit"
               data-aos="zoom-in-up"
               data-aos-delay="400"
-              data-aos-offset="-300"
+              data-aos-offset="-350"
             >
               View All Services
               <ArrowRight />
@@ -62,19 +62,19 @@ export default function Services() {
                 width={64}
                 height={64}
                 data-aos="zoom-in-up"
-                data-aos-offset="-300"
+                data-aos-offset="-350"
                 // data-aos-delay="200"
               />
               <h1
                 className="text-3xl"
                 data-aos="fade-up"
                 data-aos-delay="100"
-                data-aos-offset="-300"
+                data-aos-offset="-350"
               >
                 Door to Door
               </h1>
             </div>
-            <Separator data-aos-delay="150" data-aos-offset="-300" />
+            <Separator data-aos-delay="150" data-aos-offset="-350" />
 
             <div className="flex items-center gap-16">
               <Image
@@ -84,18 +84,18 @@ export default function Services() {
                 height={64}
                 data-aos="zoom-in-up"
                 data-aos-delay="100"
-                data-aos-offset="-300"
+                data-aos-offset="-350"
               />
               <h1
                 className="text-3xl"
                 data-aos="fade-up"
                 data-aos-delay="200"
-                data-aos-offset="-300"
+                data-aos-offset="-350"
               >
                 Port to Door
               </h1>
             </div>
-            <Separator data-aos-delay="250" data-aos-offset="-300" />
+            <Separator data-aos-delay="250" data-aos-offset="-350" />
 
             <div className="flex items-center gap-16">
               <Image
@@ -105,18 +105,18 @@ export default function Services() {
                 height={64}
                 data-aos="zoom-in-up"
                 data-aos-delay="200"
-                data-aos-offset="-300"
+                data-aos-offset="-350"
               />
               <h1
                 className="text-3xl"
                 data-aos="fade-up"
                 data-aos-delay="300"
-                data-aos-offset="-300"
+                data-aos-offset="-350"
               >
                 Door to Port
               </h1>
             </div>
-            <Separator data-aos-delay="350" data-aos-offset="-300" />
+            <Separator data-aos-delay="350" data-aos-offset="-350" />
 
             <div className="flex items-center gap-16">
               <Image
@@ -126,18 +126,18 @@ export default function Services() {
                 height={64}
                 data-aos="zoom-in-up"
                 data-aos-delay="300"
-                data-aos-offset="-300"
+                data-aos-offset="-350"
               />
               <h1
                 className="text-3xl"
                 data-aos="fade-up"
                 data-aos-delay="400"
-                data-aos-offset="-300"
+                data-aos-offset="-350"
               >
                 Port to Port
               </h1>
             </div>
-            <Separator data-aos-delay="450" data-aos-offset="-300" />
+            <Separator data-aos-delay="450" data-aos-offset="-350" />
           </div>
         </div>
 
@@ -152,13 +152,13 @@ export default function Services() {
                 height={64}
                 data-aos="fade-down"
                 data-aos-duration="1000"
-                data-aos-offset="-300"
+                data-aos-offset="-350"
               />
               <p
                 className="text-4xl pt-4 font-semibold text-blueatm-900"
                 data-aos="fade-up"
                 data-aos-duration="1000"
-                data-aos-offset="-300"
+                data-aos-offset="-350"
               >
                 <CountUp
                   end={40}
@@ -172,7 +172,7 @@ export default function Services() {
                 data-aos="zoom-in-up"
                 data-aos-duration="800"
                 data-aos-delay="200"
-                data-aos-offset="-300"
+                data-aos-offset="-350"
               >
                 Years of Experience
               </h1>
@@ -187,13 +187,13 @@ export default function Services() {
                 data-aos="fade-down"
                 data-aos-duration="1000"
                 data-aos-delay="100"
-                data-aos-offset="-300"
+                data-aos-offset="-350"
               />
               <p
                 className="text-4xl pt-4 font-semibold text-blueatm-900"
                 data-aos="fade-up"
                 data-aos-duration="1000"
-                data-aos-offset="-300"
+                data-aos-offset="-350"
               >
                 <CountUp
                   end={100}
@@ -207,7 +207,7 @@ export default function Services() {
                 data-aos="zoom-in-up"
                 data-aos-duration="800"
                 data-aos-delay="200"
-                data-aos-offset="-300"
+                data-aos-offset="-350"
               >
                 Owned Vehicles
               </h1>
@@ -222,13 +222,13 @@ export default function Services() {
                 data-aos="fade-down"
                 data-aos-duration="1000"
                 data-aos-delay="200"
-                data-aos-offset="-300"
+                data-aos-offset="-350"
               />
               <p
                 className="text-4xl pt-4 font-semibold text-blueatm-900"
                 data-aos="fade-up"
                 data-aos-duration="1000"
-                data-aos-offset="-300"
+                data-aos-offset="-350"
               >
                 <CountUp
                   end={500}
@@ -242,7 +242,7 @@ export default function Services() {
                 data-aos="zoom-in-up"
                 data-aos-duration="800"
                 data-aos-delay="200"
-                data-aos-offset="-300"
+                data-aos-offset="-350"
               >
                 Employee&apos;s Staff
               </h1>
@@ -257,13 +257,13 @@ export default function Services() {
                 data-aos="fade-down"
                 data-aos-duration="1000"
                 data-aos-delay="300"
-                data-aos-offset="-300"
+                data-aos-offset="-350"
               />
               <p
                 className="text-4xl pt-4 font-semibold text-blueatm-900"
                 data-aos="fade-up"
                 data-aos-duration="1000"
-                data-aos-offset="-300"
+                data-aos-offset="-350"
               >
                 <CountUp
                   end={2000}
@@ -277,7 +277,7 @@ export default function Services() {
                 data-aos="zoom-in-up"
                 data-aos-duration="800"
                 data-aos-delay="200"
-                data-aos-offset="-300"
+                data-aos-offset="-350"
                 className="text-center"
               >
                 Order Shipped Safety

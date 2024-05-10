@@ -12,7 +12,7 @@ export default function Faq() {
       <div className="mx-auto max-w-screen-xl px-4 py-8 sm:px-6 sm:py-12 lg:px-8 lg:py-16 lg:pt-24">
         <p
           className="bg-slate-50 p-2 px-4 inline-block rounded-full text-blueatm-900 font-medium w-fit"
-          data-aos="zoom-in-right"
+          data-aos="zoom-in-up"
           data-aos-delay="200"
         >
           💁‍♂️ FAQ&apos;s

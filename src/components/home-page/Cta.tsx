@@ -18,8 +18,8 @@ export default function Cta() {
             </p>
             <Button
               variant="default"
-              className=" py-3 mt-8 bg-white hover:bg-white hover:bg-opacity-75 rounded-full flex gap-2 transition-all w-fit text-blueatm-900"
-              data-aos="zoom-in-right"
+              className="py-3 mt-8 bg-white hover:bg-white hover:bg-opacity-75 rounded-full flex gap-2 transition-all w-fit text-blueatm-900"
+              data-aos="zoom-in-up"
               data-aos-delay="400"
               data-aos-offset="-300"
             >
