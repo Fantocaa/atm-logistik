@@ -24,7 +24,7 @@ export default function Services() {
             </p>
             <h2
               className="text-3xl font-semibold sm:text-[56px] max-w-[31rem] leading-none pt-6 text-dark"
-              data-aos="zoom-out-up"
+              data-aos="fade-up"
               data-aos-offset="-350"
             >
               Menyajikan{" "}
@@ -34,7 +34,7 @@ export default function Services() {
 
             <p
               className="mt-4 text-gray-600 text-xl max-w-[32rem]"
-              data-aos="zoom-out-up"
+              data-aos="fade-up"
               data-aos-delay="300"
               data-aos-offset="-350"
             >

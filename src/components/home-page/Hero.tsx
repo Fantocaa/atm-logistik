@@ -88,7 +88,6 @@ export default function Hero() {
                       data-aos-delay="600"
                       data-aos-offset="-300"
                     >
-                      Ensure the{" "}
                       <span className="text-blueatm-900">Safety</span> of Your{" "}
                       <span className="text-blueatm-900">Shipment</span>
                     </h1>
