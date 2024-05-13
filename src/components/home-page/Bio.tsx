@@ -165,7 +165,7 @@ export default function Bio() {
                           alt="profile"
                         />
                         <div className="absolute p-3 bottom-4 w-full">
-                          <div className="bg-white rounded-xl p-4 group h-20 hover:h-32 transition-all duration-300 overflow-hidden">
+                          <div className="bg-white rounded-xl p-4 group h-20 transition-all duration-300 overflow-hidden">
                             <div className="flex items-stretch gap-2">
                               <CircleUserRound className="text-blueatm-900 w-10 h-10" />
                               <div>
@@ -177,9 +177,9 @@ export default function Bio() {
                                 </p>
                               </div>
                             </div>
-                            <div className="text-dark pt-2 opacity-0  group-hover:opacity-100 group-hover:duration-500 transition-opacity">
+                            {/* <div className="text-dark pt-2 opacity-0  group-hover:opacity-100 group-hover:duration-500 transition-opacity">
                               {value.quote}
-                            </div>
+                            </div> */}
                           </div>
                         </div>
                       </div>

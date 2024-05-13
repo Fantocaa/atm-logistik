@@ -14,7 +14,7 @@ export default function Home() {
       <Bio />
       <ServicesArea />
       <ImageSection />
-      <Faq />
+      {/* <Faq /> */}
       <Cta />
     </>
   );

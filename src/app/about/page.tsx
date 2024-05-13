@@ -13,7 +13,7 @@ export default function About() {
       <Sakti />
       <Member />
       <ImageSection />
-      <Faq />
+      {/* <Faq /> */}
       <Cta />
     </>
   );
