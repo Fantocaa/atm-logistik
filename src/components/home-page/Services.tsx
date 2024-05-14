@@ -53,8 +53,154 @@ export default function Services() {
               View All Services
               <ArrowRight />
             </Button>
+
+            <div className="pt-16">
+              <div className="grid grid-cols-2 md:flex h-32 justify-center gap-8 md:gap-10 items-center mt-8 md:mt-0">
+                {/* <Separator orientation="vertical" className="hidden md:block" /> */}
+                <Image
+                  src="/icon/1-1.svg"
+                  alt="icon"
+                  width={64}
+                  height={64}
+                  data-aos="zoom-in-down"
+                  data-aos-duration="1000"
+                  data-aos-offset="-350"
+                />
+                <div className="flex flex-col items-center">
+                  <p
+                    className="text-4xl pt-4 font-semibold text-blueatm-900"
+                    data-aos="zoom-in-up"
+                    data-aos-duration="1000"
+                    data-aos-offset="-350"
+                  >
+                    {/* <CountUp
+                  end={2016}
+                  duration={2.75}
+                  enableScrollSpy
+                  scrollSpyOnce
+                ></CountUp> */}
+                    2016
+                  </p>
+                  <h1
+                    data-aos="zoom-in-up"
+                    data-aos-duration="800"
+                    data-aos-delay="200"
+                    data-aos-offset="-350"
+                  >
+                    Company Established
+                  </h1>
+                </div>
+                <Separator orientation="vertical" className="hidden md:block" />
+                <Image
+                  src="/icon/1-2.svg"
+                  alt="icon"
+                  width={64}
+                  height={64}
+                  data-aos="zoom-in-down"
+                  data-aos-duration="1000"
+                  data-aos-delay="100"
+                  data-aos-offset="-350"
+                />{" "}
+                <div className="flex flex-col items-center">
+                  <p
+                    className="text-4xl pt-4 font-semibold text-blueatm-900"
+                    data-aos="zoom-in-up"
+                    data-aos-duration="1000"
+                    data-aos-offset="-350"
+                  >
+                    {/* <CountUp
+                  end={100}
+                  duration={2.75}
+                  enableScrollSpy
+                  scrollSpyOnce
+                ></CountUp> */}
+                    80+
+                  </p>
+                  <h1
+                    data-aos="zoom-in-up"
+                    data-aos-duration="800"
+                    data-aos-delay="200"
+                    data-aos-offset="-350"
+                  >
+                    Owned Vehicles
+                  </h1>
+                </div>
+                {/* <Separator orientation="vertical" className="hidden md:block" />
+            <div className="flex flex-col items-center">
+              <Image
+                src="/icon/1-3.svg"
+                alt="icon"
+                width={64}
+                height={64}
+                data-aos="zoom-in-down"
+                data-aos-duration="1000"
+                data-aos-delay="200"
+                data-aos-offset="-350"
+              />
+              <p
+                className="text-4xl pt-4 font-semibold text-blueatm-900"
+                data-aos="zoom-in-up"
+                data-aos-duration="1000"
+                data-aos-offset="-350"
+              >
+                <CountUp
+                  end={500}
+                  duration={2.75}
+                  enableScrollSpy
+                  scrollSpyOnce
+                ></CountUp>
+                +
+              </p>
+              <h1
+                data-aos="zoom-in-up"
+                data-aos-duration="800"
+                data-aos-delay="200"
+                data-aos-offset="-350"
+              >
+                Employee&apos;s Staff
+              </h1>
+            </div> */}
+                {/* <Separator orientation="vertical" className="hidden md:block" />
+            <div className="flex flex-col items-center">
+              <Image
+                src="/icon/container.svg"
+                alt="icon"
+                width={64}
+                height={64}
+                data-aos="zoom-in-down"
+                data-aos-duration="1000"
+                data-aos-delay="300"
+                data-aos-offset="-350"
+              />
+              <p
+                className="text-4xl pt-4 font-semibold text-blueatm-900"
+                data-aos="zoom-in-up"
+                data-aos-duration="1000"
+                data-aos-offset="-350"
+              >
+                <CountUp
+                  end={2000}
+                  duration={2.75}
+                  enableScrollSpy
+                  scrollSpyOnce
+                ></CountUp>
+                +
+              </p>
+              <h1
+                data-aos="zoom-in-up"
+                data-aos-duration="800"
+                data-aos-delay="200"
+                data-aos-offset="-350"
+                className="text-center"
+              >
+                Order Shipped Safety
+              </h1>
+            </div> */}
+                {/* <Separator orientation="vertical" className="hidden md:block" /> */}
+              </div>
+            </div>
           </div>
-          <div className="md:w-1/2 flex flex-col gap-5 pt-16 md:pt-0">
+          <div className="md:w-1/2 flex flex-col gap-12 pt-16 md:pt-0">
             <div className="flex items-center gap-16">
               <Image
                 src="/icon/1.svg"
@@ -138,152 +284,6 @@ export default function Services() {
               </h1>
             </div>
             <Separator data-aos-delay="450" data-aos-offset="-350" />
-          </div>
-        </div>
-
-        <div className="pt-16">
-          <div className="grid grid-cols-2 md:flex h-32 justify-center gap-8 md:gap-16 items-center mt-8 md:mt-0">
-            <Separator orientation="vertical" className="hidden md:block" />
-            <div className="flex flex-col items-center">
-              <Image
-                src="/icon/1-1.svg"
-                alt="icon"
-                width={64}
-                height={64}
-                data-aos="zoom-in-down"
-                data-aos-duration="1000"
-                data-aos-offset="-350"
-              />
-              <p
-                className="text-4xl pt-4 font-semibold text-blueatm-900"
-                data-aos="zoom-in-up"
-                data-aos-duration="1000"
-                data-aos-offset="-350"
-              >
-                <CountUp
-                  end={40}
-                  duration={2.75}
-                  enableScrollSpy
-                  scrollSpyOnce
-                ></CountUp>
-                +
-              </p>
-              <h1
-                data-aos="zoom-in-up"
-                data-aos-duration="800"
-                data-aos-delay="200"
-                data-aos-offset="-350"
-              >
-                Years of Experience
-              </h1>
-            </div>
-            <Separator orientation="vertical" className="hidden md:block" />
-            <div className="flex flex-col items-center">
-              <Image
-                src="/icon/1-2.svg"
-                alt="icon"
-                width={64}
-                height={64}
-                data-aos="zoom-in-down"
-                data-aos-duration="1000"
-                data-aos-delay="100"
-                data-aos-offset="-350"
-              />
-              <p
-                className="text-4xl pt-4 font-semibold text-blueatm-900"
-                data-aos="zoom-in-up"
-                data-aos-duration="1000"
-                data-aos-offset="-350"
-              >
-                <CountUp
-                  end={100}
-                  duration={2.75}
-                  enableScrollSpy
-                  scrollSpyOnce
-                ></CountUp>
-                +
-              </p>
-              <h1
-                data-aos="zoom-in-up"
-                data-aos-duration="800"
-                data-aos-delay="200"
-                data-aos-offset="-350"
-              >
-                Owned Vehicles
-              </h1>
-            </div>
-            <Separator orientation="vertical" className="hidden md:block" />
-            <div className="flex flex-col items-center">
-              <Image
-                src="/icon/1-3.svg"
-                alt="icon"
-                width={64}
-                height={64}
-                data-aos="zoom-in-down"
-                data-aos-duration="1000"
-                data-aos-delay="200"
-                data-aos-offset="-350"
-              />
-              <p
-                className="text-4xl pt-4 font-semibold text-blueatm-900"
-                data-aos="zoom-in-up"
-                data-aos-duration="1000"
-                data-aos-offset="-350"
-              >
-                <CountUp
-                  end={500}
-                  duration={2.75}
-                  enableScrollSpy
-                  scrollSpyOnce
-                ></CountUp>
-                +
-              </p>
-              <h1
-                data-aos="zoom-in-up"
-                data-aos-duration="800"
-                data-aos-delay="200"
-                data-aos-offset="-350"
-              >
-                Employee&apos;s Staff
-              </h1>
-            </div>
-            <Separator orientation="vertical" className="hidden md:block" />
-            <div className="flex flex-col items-center">
-              <Image
-                src="/icon/container.svg"
-                alt="icon"
-                width={64}
-                height={64}
-                data-aos="zoom-in-down"
-                data-aos-duration="1000"
-                data-aos-delay="300"
-                data-aos-offset="-350"
-              />
-              <p
-                className="text-4xl pt-4 font-semibold text-blueatm-900"
-                data-aos="zoom-in-up"
-                data-aos-duration="1000"
-                data-aos-offset="-350"
-              >
-                <CountUp
-                  end={2000}
-                  duration={2.75}
-                  enableScrollSpy
-                  scrollSpyOnce
-                ></CountUp>
-                +
-              </p>
-              <h1
-                data-aos="zoom-in-up"
-                data-aos-duration="800"
-                data-aos-delay="200"
-                data-aos-offset="-350"
-                className="text-center"
-              >
-                Order Shipped Safety
-              </h1>
-            </div>
-            <Separator orientation="vertical" className="hidden md:block" />
           </div>
         </div>
       </section>

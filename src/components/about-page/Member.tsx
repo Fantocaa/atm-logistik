@@ -117,7 +117,7 @@ export default function Member() {
             className="w-full h-full 2xl:scale-150"
           />
         </div>
-        <div className="mx-auto max-w-screen-xl px-4 py-8 sm:px-6 sm:py-12 lg:px-8 lg:py-32">
+        <div className="mx-auto max-w-screen-xl px-4 py-8 sm:px-6 sm:py-12 lg:px-8 lg:py-12">
           <div className="flex flex-col items-center gap-8">
             <p
               className="bg-slate-50 p-2 px-4 inline-block rounded-full text-blueatm-900 font-medium w-fit"
@@ -170,7 +170,7 @@ export default function Member() {
                           alt="profile"
                         />
                         <div className="absolute p-3 bottom-4 w-full">
-                          <div className="bg-white rounded-xl p-4 group h-20 hover:h-32 transition-all duration-300 overflow-hidden">
+                          <div className="bg-white rounded-xl p-4 group h-20 transition-all duration-300 overflow-hidden">
                             <div className="flex items-stretch gap-2">
                               <CircleUserRound className="text-blueatm-900 w-10 h-10" />
                               <div>
@@ -182,9 +182,9 @@ export default function Member() {
                                 </p>
                               </div>
                             </div>
-                            <div className="text-dark pt-2 opacity-0  group-hover:opacity-100 group-hover:duration-500 transition-opacity">
+                            {/* <div className="text-dark pt-2 opacity-0  group-hover:opacity-100 group-hover:duration-500 transition-opacity">
                               {value.quote}
-                            </div>
+                            </div> */}
                           </div>
                         </div>
                       </div>

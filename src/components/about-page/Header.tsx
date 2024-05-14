@@ -52,7 +52,7 @@ export default function Header() {
                 layanan kami adalah yang terlengkap dan terbaik di Indonesia.
               </p>
 
-              <div className="md:grid grid-cols-2 gap-4 mt-16 md:mt-[13.8rem] hidden">
+              <div className="md:grid grid-cols-2 gap-4 mt-16 md:mt-[21.8rem] hidden">
                 <div
                   className="bg-slate-50 rounded-xl p-6 flex gap-4 items-center w-full justify-center"
                   data-aos="zoom-in-down"
@@ -75,9 +75,9 @@ export default function Header() {
                     data-aos-offset="-400"
                   >
                     <h1 className="text-center text-3xl text-blueatm-900 font-semibold">
-                      40+
+                      2016
                     </h1>
-                    <h1 className="text-sm">Years of Experience</h1>
+                    <h1 className="text-sm">Company Established</h1>
                   </div>
                 </div>
                 <div
@@ -102,12 +102,12 @@ export default function Header() {
                     data-aos-offset="-400"
                   >
                     <h1 className="text-center text-3xl text-blueatm-900 font-semibold">
-                      100+
+                      80+
                     </h1>
                     <h1 className="text-sm">Owned Vehicles</h1>
                   </div>
                 </div>
-                <div
+                {/* <div
                   className="bg-slate-50 rounded-xl p-6 flex gap-4 items-center w-full justify-center"
                   data-aos="zoom-in-down"
                   data-aos-delay="450"
@@ -133,8 +133,8 @@ export default function Header() {
                     </h1>
                     <h1 className="text-sm">Employees on Staff</h1>
                   </div>
-                </div>
-                <div
+                </div> */}
+                {/* <div
                   className="bg-slate-50 rounded-xl p-6 flex gap-4 items-center w-full justify-center"
                   data-aos="zoom-in-down"
                   data-aos-delay="450"
@@ -160,7 +160,7 @@ export default function Header() {
                     </h1>
                     <h1 className="text-sm">Order Shipped Safety</h1>
                   </div>
-                </div>
+                </div> */}
               </div>
             </div>
 
