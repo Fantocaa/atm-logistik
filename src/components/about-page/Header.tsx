@@ -17,7 +17,7 @@ export default function Header() {
       <section className="mt-24 md:mt-8 2xl:pt-16 font-medium">
         <div className="mx-auto max-w-screen-xl px-4 py-8 sm:px-6 sm:py-12 lg:px-8 lg:py-16">
           <div className="grid grid-cols-1 gap-4 lg:grid-cols-2 lg:gap-4">
-            <div className="">
+            <div>
               <p
                 className="bg-slate-50 p-2 px-4 inline-block rounded-full text-blueatm-900 font-medium w-fit"
                 data-aos="zoom-in-right"
@@ -51,120 +51,9 @@ export default function Header() {
                 anda. PT. Anugerah Trans Maritim (ATM Trans) akan memastikan
                 layanan kami adalah yang terlengkap dan terbaik di Indonesia.
               </p>
-
-              <div className="md:grid grid-cols-2 gap-4 mt-16 md:mt-[21.8rem] hidden">
-                <div
-                  className="bg-slate-50 rounded-xl p-6 flex gap-4 items-center w-full justify-center"
-                  data-aos="zoom-in-down"
-                  data-aos-delay="450"
-                  data-aos-offset="-400"
-                >
-                  <Image
-                    src="/icon/1-1.svg"
-                    width={64}
-                    height={64}
-                    alt="container"
-                    data-aos="zoom-in-left"
-                    data-aos-delay="600"
-                    data-aos-offset="-500"
-                  />
-                  <div
-                    className="flex flex-col justify-end items-center h-full"
-                    data-aos="zoom-in-left"
-                    data-aos-delay="600"
-                    data-aos-offset="-400"
-                  >
-                    <h1 className="text-center text-3xl text-blueatm-900 font-semibold">
-                      2016
-                    </h1>
-                    <h1 className="text-sm">Company Established</h1>
-                  </div>
-                </div>
-                <div
-                  className="bg-slate-50 rounded-xl p-6 flex gap-4 items-center w-full justify-center"
-                  data-aos="zoom-in-down"
-                  data-aos-delay="450"
-                  data-aos-offset="-400"
-                >
-                  <Image
-                    src="/icon/1-2.svg"
-                    width={64}
-                    height={64}
-                    alt="container"
-                    data-aos="zoom-in-left"
-                    data-aos-delay="600"
-                    data-aos-offset="-500"
-                  />
-                  <div
-                    className="flex flex-col justify-end items-center h-full"
-                    data-aos="zoom-in-left"
-                    data-aos-delay="600"
-                    data-aos-offset="-400"
-                  >
-                    <h1 className="text-center text-3xl text-blueatm-900 font-semibold">
-                      80+
-                    </h1>
-                    <h1 className="text-sm">Owned Vehicles</h1>
-                  </div>
-                </div>
-                {/* <div
-                  className="bg-slate-50 rounded-xl p-6 flex gap-4 items-center w-full justify-center"
-                  data-aos="zoom-in-down"
-                  data-aos-delay="450"
-                  data-aos-offset="-400"
-                >
-                  <Image
-                    src="/icon/1-3.svg"
-                    width={64}
-                    height={64}
-                    alt="container"
-                    data-aos="zoom-in-left"
-                    data-aos-delay="600"
-                    data-aos-offset="-500"
-                  />
-                  <div
-                    className="flex flex-col justify-end items-center h-full"
-                    data-aos="zoom-in-left"
-                    data-aos-delay="600"
-                    data-aos-offset="-400"
-                  >
-                    <h1 className="text-center text-3xl text-blueatm-900 font-semibold">
-                      500+
-                    </h1>
-                    <h1 className="text-sm">Employees on Staff</h1>
-                  </div>
-                </div> */}
-                {/* <div
-                  className="bg-slate-50 rounded-xl p-6 flex gap-4 items-center w-full justify-center"
-                  data-aos="zoom-in-down"
-                  data-aos-delay="450"
-                  data-aos-offset="-400"
-                >
-                  <Image
-                    src="/icon/container.svg"
-                    width={64}
-                    height={64}
-                    alt="container"
-                    data-aos="zoom-in-left"
-                    data-aos-delay="600"
-                    data-aos-offset="-500"
-                  />
-                  <div
-                    className="flex flex-col justify-end items-center h-full"
-                    data-aos="zoom-in-left"
-                    data-aos-delay="600"
-                    data-aos-offset="-400"
-                  >
-                    <h1 className="text-center text-3xl text-blueatm-900 font-semibold">
-                      2000+
-                    </h1>
-                    <h1 className="text-sm">Order Shipped Safety</h1>
-                  </div>
-                </div> */}
-              </div>
             </div>
 
-            <div>
+            <div className="h-full">
               <div
                 className="bg-slate-50 rounded-xl"
                 data-aos="zoom-in-down"
@@ -181,72 +70,6 @@ export default function Header() {
                   data-aos-delay="600"
                   data-aos-offset="-300"
                 />
-              </div>
-              <div className="grid grid-row-2 gap-4 pt-16 md:pt-0">
-                <div
-                  className="bg-slate-50 rounded-xl flex items-center md:mt-4 p-6"
-                  data-aos="zoom-in-down"
-                  data-aos-delay="500"
-                  data-aos-offset="-300"
-                >
-                  <div className="text-center">
-                    <h1
-                      data-aos="zoom-in-right"
-                      data-aos-delay="600"
-                      data-aos-offset="-300"
-                      className="text-3xl font-semibold text-blueatm-900 text-center "
-                    >
-                      Visi :
-                    </h1>
-                    <h1
-                      className="text-2xl text-dark text-center pt-4"
-                      data-aos="zoom-in-right"
-                      data-aos-delay="600"
-                      data-aos-offset="-300"
-                    >
-                      Menjadi perusahaan logistik yang terlengkap dan terbaik di
-                      Indonesia
-                    </h1>
-                  </div>
-                </div>
-                <div
-                  className="bg-slate-50 rounded-xl p-6 flex gap-4 items-center w-full justify-center"
-                  data-aos="zoom-in-down"
-                  data-aos-delay="450"
-                  data-aos-offset="-400"
-                >
-                  <div
-                    className=" h-full"
-                    data-aos="zoom-in-left"
-                    data-aos-delay="600"
-                    data-aos-offset="-400"
-                  >
-                    <h1
-                      data-aos="zoom-in-right"
-                      data-aos-delay="600"
-                      data-aos-offset="-300"
-                      className="text-3xl font-semibold text-blueatm-900 text-center"
-                    >
-                      Misi :
-                    </h1>
-                    <ul className="pt-4 list-disc ml-8">
-                      <li>
-                        Menawarkan jasa logistik yang terlengkap untuk semua
-                        kebutuhan customer
-                      </li>
-                      <li>
-                        Membantu pengembangan bisnis customer dengan menjadi
-                        mitra logistik yang memperlancar & meningkatkan jalur
-                        distribusi
-                      </li>
-                      <li>Membangun jaringan yang kuat di seluruh indonesia</li>
-                      <li>
-                        Bersama dengan tim memberikan informasi logistik yang
-                        cepat dan akurat kepada customer
-                      </li>
-                    </ul>
-                  </div>
-                </div>
               </div>
             </div>
             <div className="grid grid-cols-2 gap-4 md:mt-[13.8rem] md:hidden">
@@ -357,6 +180,129 @@ export default function Header() {
                   </h1>
                   <h1 className="text-sm">Order Shipped Safety</h1>
                 </div>
+              </div>
+            </div>
+          </div>
+          <div className="grid md:grid-cols-2 gap-4 h-full pt-3">
+            <div>
+              <div
+                className="bg-slate-50 rounded-xl flex items-center p-6"
+                data-aos="zoom-in-down"
+                data-aos-delay="500"
+                data-aos-offset="-300"
+              >
+                <div className="text-center">
+                  <h1
+                    data-aos="zoom-in-right"
+                    data-aos-delay="600"
+                    data-aos-offset="-300"
+                    className="text-3xl font-semibold text-blueatm-900 text-center "
+                  >
+                    Visi :
+                  </h1>
+                  <h1
+                    className="text-2xl text-dark text-center pt-4"
+                    data-aos="zoom-in-right"
+                    data-aos-delay="600"
+                    data-aos-offset="-300"
+                  >
+                    Menjadi perusahaan logistik yang terlengkap dan terbaik di
+                    Indonesia
+                  </h1>
+                </div>
+              </div>
+              <div className="md:grid grid-cols-2 gap-4 mt-16 md:mt-4 hidden">
+                <div
+                  className="bg-slate-50 rounded-xl p-6 flex gap-4 items-center w-full justify-center"
+                  data-aos="zoom-in-down"
+                  data-aos-delay="450"
+                  data-aos-offset="-400"
+                >
+                  <Image
+                    src="/icon/1-1.svg"
+                    width={64}
+                    height={64}
+                    alt="container"
+                    data-aos="zoom-in-left"
+                    data-aos-delay="600"
+                    data-aos-offset="-500"
+                  />
+                  <div
+                    className="flex flex-col justify-end items-center h-full"
+                    data-aos="zoom-in-left"
+                    data-aos-delay="600"
+                    data-aos-offset="-400"
+                  >
+                    <h1 className="text-center text-3xl text-blueatm-900 font-semibold">
+                      2016
+                    </h1>
+                    <h1 className="text-sm">Company Established</h1>
+                  </div>
+                </div>
+                <div
+                  className="bg-slate-50 rounded-xl p-6 flex gap-4 items-center w-full justify-center"
+                  data-aos="zoom-in-down"
+                  data-aos-delay="450"
+                  data-aos-offset="-400"
+                >
+                  <Image
+                    src="/icon/1-2.svg"
+                    width={64}
+                    height={64}
+                    alt="container"
+                    data-aos="zoom-in-left"
+                    data-aos-delay="600"
+                    data-aos-offset="-500"
+                  />
+                  <div
+                    className="flex flex-col justify-end items-center h-full"
+                    data-aos="zoom-in-left"
+                    data-aos-delay="600"
+                    data-aos-offset="-400"
+                  >
+                    <h1 className="text-center text-3xl text-blueatm-900 font-semibold">
+                      80+
+                    </h1>
+                    <h1 className="text-sm">Owned Vehicles</h1>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              className="bg-slate-50 rounded-xl p-6 flex gap-4 items-center w-full justify-center h-full"
+              data-aos="zoom-in-down"
+              data-aos-delay="450"
+              data-aos-offset="-400"
+            >
+              <div
+                className="h-fit"
+                data-aos="zoom-in-left"
+                data-aos-delay="600"
+                data-aos-offset="-400"
+              >
+                <h1
+                  data-aos="zoom-in-right"
+                  data-aos-delay="600"
+                  data-aos-offset="-300"
+                  className="text-3xl font-semibold text-blueatm-900 text-center"
+                >
+                  Misi :
+                </h1>
+                <ul className="pt-4 list-disc ml-8">
+                  <li>
+                    Menawarkan jasa logistik yang terlengkap untuk semua
+                    kebutuhan customer
+                  </li>
+                  <li>
+                    Membantu pengembangan bisnis customer dengan menjadi mitra
+                    logistik yang memperlancar & meningkatkan jalur distribusi
+                  </li>
+                  <li>Membangun jaringan yang kuat di seluruh indonesia</li>
+                  <li>
+                    Bersama dengan tim memberikan informasi logistik yang cepat
+                    dan akurat kepada customer
+                  </li>
+                </ul>
               </div>
             </div>
           </div>

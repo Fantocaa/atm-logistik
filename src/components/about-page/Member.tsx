@@ -121,7 +121,7 @@ export default function Member() {
           <div className="flex flex-col items-center gap-8">
             <p
               className="bg-slate-50 p-2 px-4 inline-block rounded-full text-blueatm-900 font-medium w-fit"
-              data-aos="zoom-in-right"
+              data-aos="zoom-in-up"
               data-aos-delay="100"
               data-aos-offset="-300"
             >
@@ -129,7 +129,7 @@ export default function Member() {
             </p>
             <h1
               className="text-4xl max-w-2xl text-center font-semibold"
-              data-aos="zoom-in-right"
+              data-aos="zoom-in-up"
               data-aos-delay="200"
               data-aos-offset="-300"
             >
