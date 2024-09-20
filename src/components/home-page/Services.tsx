@@ -200,7 +200,7 @@ export default function Services() {
               </div>
             </div>
           </div>
-          <div className="md:w-1/2 flex flex-col gap-12 pt-16 md:pt-0">
+          <div className="md:w-1/2 flex flex-col gap-12 pt-32 md:pt-0">
             <div className="flex items-center gap-16">
               <Image
                 src="/icon/1.svg"

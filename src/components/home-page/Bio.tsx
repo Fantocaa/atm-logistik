@@ -10,6 +10,7 @@ import {
 import { CircleUserRound } from "lucide-react";
 import { Button } from "../ui/button";
 import { ArrowRight } from "lucide-react";
+import Link from "next/link";
 
 export default function Bio() {
   const Member = [
@@ -21,87 +22,27 @@ export default function Bio() {
       quote: "When you have a dream, you've got to grab it and never let go.",
       exp: [
         {
-          expdetails: "Management Trainee PT. Meratus Line 2006-2008",
+          expdetails: "Management Trainee PT. Meratus Line 2006 - 2008",
         },
         {
-          expdetails: "Koordinator Sales Meratus Door Service 2008-2010",
+          expdetails: "Koordinator Sales Meratus Door Service 2008 - 2010",
         },
         {
-          expdetails: "Kepala Cabang PT. Meratus Line Cab. Kupang 2010-2013",
+          expdetails: "Kepala Cabang PT. Meratus Line Cab. Kupang 2010 - 2013",
         },
         {
           expdetails:
-            "Direktur PT. Anugerah Mandiri International Trans 2013-2016",
+            "Direktur PT. Anugerah Mandiri International Trans 2013 - 2016",
         },
         {
-          expdetails: "Direktur PT. Anugerah Trans Maritim 2016-Sekarang",
+          expdetails: "Direktur PT. Anugerah Trans Maritim 2016 - Sekarang",
         },
       ],
     },
-    // {
-    //   id: 2,
-    //   name: "Rio Nizar Firdauzi",
-    //   path: "/images/rio.png",
-    //   company: "Direktur PT. Anugerah Trans Maritim",
-    //   quote: "When you have a dream, you've got to grab it and never let go.",
-    //   exp: [
-    //     {
-    //       expdetails: "MANAGER AREA PT.DUMMY (2009 - 2018)",
-    //     },
-    //     {
-    //       expdetails: "DIRECTOR OF PT.ANUGERAH TRANS MARITIM (2018 - Present)",
-    //     },
-    //   ],
-    // },
-    // {
-    //   id: 3,
-    //   name: "Rio Nizar Firdauzi",
-    //   path: "/images/rio.png",
-    //   company: "Direktur PT. Anugerah Trans Maritim",
-    //   quote: "When you have a dream, you've got to grab it and never let go.",
-    //   exp: [
-    //     {
-    //       expdetails: "MANAGER AREA PT.DUMMY (2009 - 2018)",
-    //     },
-    //     {
-    //       expdetails: "DIRECTOR OF PT.ANUGERAH TRANS MARITIM (2018 - Present)",
-    //     },
-    //   ],
-    // },
-    // {
-    //   id: 4,
-    //   name: "Rio Nizar Firdauzi",
-    //   path: "/images/rio.png",
-    //   company: "Direktur PT. Anugerah Trans Maritim",
-    //   quote: "When you have a dream, you've got to grab it and never let go.",
-    //   exp: [
-    //     {
-    //       expdetails: "MANAGER AREA PT.DUMMY (2009 - 2018)",
-    //     },
-    //     {
-    //       expdetails: "DIRECTOR OF PT.ANUGERAH TRANS MARITIM (2018 - Present)",
-    //     },
-    //   ],
-    // },
-    // {
-    //   id: 5,
-    //   name: "Rio Nizar Firdauzi",
-    //   path: "/images/rio.png",
-    //   company: "Direktur PT. Anugerah Trans Maritim",
-    //   quote: "When you have a dream, you've got to grab it and never let go.",
-    //   exp: [
-    //     {
-    //       expdetails: "MANAGER AREA PT.DUMMY (2009 - 2018)",
-    //     },
-    //     {
-    //       expdetails: "DIRECTOR OF PT.ANUGERAH TRANS MARITIM (2018 - Present)",
-    //     },
-    //   ],
-    // },
   ];
 
   return (
-    <section className="bg-blueatm-900 text-white mt-72 md:mt-8">
+    <section className="bg-blueatm-900 text-white mt-16 md:mt-8">
       <div className="relative">
         <div className="absolute top-64 -left-32 2xl:left-0">
           <Image
@@ -144,67 +85,101 @@ export default function Bio() {
             </p>
 
             <div>
-              <Carousel
+              {/* <Carousel
                 className="max-w-sm md:max-w-screen-lg"
                 opts={{
                   align: "start",
                   // loop: true,
                 }}
               >
-                <CarouselContent>
-                  {Member.map((value, index) => (
-                    <CarouselItem
-                      className="basis-11/12 md:basis-1/3"
-                      key={value.id}
-                    >
-                      <div className="bg-white bg-opacity-10 rounded-xl relative">
-                        <Image
-                          src={value.path}
-                          width={1080}
-                          height={1080}
-                          alt="profile"
-                        />
-                        <div className="absolute p-3 bottom-4 w-full">
-                          <div className="bg-white rounded-xl p-4 group h-20 transition-all duration-300 overflow-hidden">
-                            <div className="flex items-stretch gap-2">
-                              <CircleUserRound className="text-blueatm-900 w-10 h-10" />
-                              <div>
-                                <h3 className="text-lg/tight font-semibold text-dark">
-                                  {value.name}
-                                </h3>
-                                <p className="mt-0.5 text-blueatm-900 text-sm">
-                                  {value.company}
-                                </p>
-                              </div>
-                            </div>
-                            {/* <div className="text-dark pt-2 opacity-0  group-hover:opacity-100 group-hover:duration-500 transition-opacity">
+                <CarouselContent> */}
+              {Member.map((value, index) => (
+                // <CarouselItem
+                //   className="basis-11/12 md:basis-1/3"
+                //   key={value.id}
+                // >
+                <div
+                  className="w-full md:grid grid-cols-10 mt-8"
+                  key={value.id}
+                >
+                  <div className="bg-white bg-opacity-10 rounded-xl relative col-span-4">
+                    <Image
+                      src={value.path}
+                      width={1080}
+                      height={1080}
+                      alt="profile"
+                    />
+                    {/* <div className="absolute p-3 bottom-4 w-full">
+                      <div className="bg-white rounded-xl p-4 group h-20 transition-all duration-300 overflow-hidden">
+                        <div className="flex items-stretch gap-2">
+                          <CircleUserRound className="text-blueatm-900 w-10 h-10" />
+                          <div>
+                            <h3 className="text-lg/tight font-semibold text-dark">
+                              {value.name}
+                            </h3>
+                            <p className="mt-0.5 text-blueatm-900 text-sm">
+                              {value.company}
+                            </p>
+                          </div>
+                        </div> */}
+                    {/* <div className="text-dark pt-2 opacity-0  group-hover:opacity-100 group-hover:duration-500 transition-opacity">
                               {value.quote}
                             </div> */}
+                    {/* </div>
+                    </div> */}
+                  </div>
+                  <div className="col-span-6 md:pl-6 flex-col pt-4 md:pt-0 gap-6 flex">
+                    <div className="justify-between w-full items-end hidden md:flex">
+                      <h1 className="font-medium text-4xl">
+                        Ketahui Mengenai Kami 👉
+                      </h1>
+                      <Link href="/about">
+                        <Button
+                          variant="default"
+                          className=" py-3 text-blueatm-900 bg-white hover:bg-blue-50 rounded-full flex gap-2 transition-all w-fit"
+                          data-aos="zoom-in-up"
+                          data-aos-delay="400"
+                          data-aos-offset="-300"
+                        >
+                          More About Us
+                          <ArrowRight size={20} />
+                        </Button>
+                      </Link>
+                    </div>
+                    <div className="bottom-4 w-full">
+                      <div className="bg-white rounded-xl p-4 md:p-8 group h-full transition-all duration-300 overflow-hidden">
+                        <div className="flex items-center gap-4">
+                          <CircleUserRound className="text-blueatm-900 w-16 h-16" />
+                          <div>
+                            <h3 className="text-2xl md:text-4xl/tight font-semibold text-dark">
+                              {value.name}
+                            </h3>
+                            <p className="text-blueatm-900 text-lg">
+                              {value.company}
+                            </p>
                           </div>
                         </div>
+                        {/* <div className="text-dark pt-2 opacity-0  group-hover:opacity-100 group-hover:duration-500 transition-opacity">
+                              {value.quote}
+                            </div> */}
+                        <ul className="list-disc max-w-xs md:max-w-xl text-dark ml-6 text-base md:text-xl w-full">
+                          {value.exp.map((experience, index) => (
+                            <li key={index} className="pt-4">
+                              {experience.expdetails}
+                            </li>
+                          ))}
+                        </ul>
                       </div>
-                      <ul className="list-disc max-w-xs md:max-w-xl text-white pt-4 ml-6 text-sm w-full">
-                        {value.exp.map((experience, index) => (
-                          <li key={index}>{experience.expdetails}</li>
-                        ))}
-                      </ul>
-                    </CarouselItem>
-                  ))}
-                </CarouselContent>
+                    </div>
+                  </div>
+                </div>
+              ))}
+              {/* </CarouselItem> */}
+              {/* </CarouselContent>
                 <CarouselPrevious className="text-blueatm-900 md:inline-flex" />
                 <CarouselNext className="text-blueatm-900 hidden md:inline-flex" />
-              </Carousel>
+              </Carousel> */}
             </div>
-            <Button
-              variant="default"
-              className=" py-3 mt-8 text-blueatm-900 bg-white hover:bg-blue-50 rounded-full flex gap-2 transition-all w-fit"
-              data-aos="zoom-in-up"
-              data-aos-delay="400"
-              data-aos-offset="-300"
-            >
-              More About Us
-              <ArrowRight />
-            </Button>
           </div>
         </div>
       </div>
