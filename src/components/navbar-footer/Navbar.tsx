@@ -57,6 +57,7 @@ export function Navbar() {
   const [prevScrollPos, setPrevScrollPos] = useState(0);
   const [isVisible, setIsVisible] = useState(true);
   const [isOpen, setIsOpen] = useState(false);
+  const [prevPathname, setPrevPathname] = useState("");
   const controls = useAnimation();
 
   useEffect(() => {
@@ -106,6 +107,17 @@ export function Navbar() {
   const toggleMenu = () => {
     setIsOpen(!isOpen);
   };
+
+  useEffect(() => {
+    if (pathname !== prevPathname) {
+      // Tutup sidebar hanya jika path berubah
+      if (isOpen) {
+        setIsOpen(false);
+      }
+      // Perbarui prevPathname untuk memantau perubahan berikutnya
+      setPrevPathname(pathname);
+    }
+  }, [pathname, prevPathname, isOpen]);
 
   const ListItem = React.forwardRef<
     React.ElementRef<"a">,

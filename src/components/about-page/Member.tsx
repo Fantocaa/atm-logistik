@@ -1,5 +1,6 @@
 import Image from "next/image";
 import React from "react";
+import { CircleUserRound } from "lucide-react";
 import {
   Carousel,
   CarouselContent,
@@ -7,7 +8,6 @@ import {
   CarouselNext,
   CarouselPrevious,
 } from "@/components/ui/carousel";
-import { CircleUserRound } from "lucide-react";
 import { Button } from "../ui/button";
 import { ArrowRight } from "lucide-react";
 import Link from "next/link";
